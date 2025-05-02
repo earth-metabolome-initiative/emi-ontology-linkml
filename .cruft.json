@@ -1,0 +1,33 @@
+{
+  "template": "https://github.com/linkml/linkml-project-cookiecutter",
+  "commit": "494e28e5496acc76558c07c95dea62d2db05081c",
+  "checkout": null,
+  "context": {
+    "cookiecutter": {
+      "project_name": "emi-ontology-linkml",
+      "__project_slug": "emi_ontology_linkml",
+      "github_org": "earth-metabolome-initiative",
+      "__source_path": "src/emi_ontology_linkml/schema/emi_ontology_linkml.yaml",
+      "project_description": "Testing LinkML to manage the EMI Ontology",
+      "full_name": "EMI",
+      "email": "contact@earthmetabolome.org",
+      "__author": "EMI <contact@earthmetabolome.org>",
+      "license": "MIT",
+      "main_schema_class": "Person",
+      "create_python_classes": "Yes",
+      "use_schemasheets": "No",
+      "google_sheet_id": "1Kp7r4NTkoChUTtGD5eOtAKDavvrQg5wX-vxe7JaLUuM",
+      "google_sheet_tabs": "test",
+      "__google_sheet_module": "test",
+      "github_token_for_pypi_deployment": "PYPI_PASSWORD",
+      "_copy_without_render": [
+        "justfile",
+        "src/docs/js/*",
+        "src/docs/javascript/*"
+      ],
+      "_template": "https://github.com/linkml/linkml-project-cookiecutter",
+      "_commit": "494e28e5496acc76558c07c95dea62d2db05081c"
+    }
+  },
+  "directory": null
+}
