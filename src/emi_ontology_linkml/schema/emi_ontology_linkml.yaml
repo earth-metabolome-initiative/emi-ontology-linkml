@@ -14,7 +14,7 @@ prefixes:
   biolink: https://w3id.org/biolink/
   schema: http://schema.org/
   PATO: http://purl.obolibrary.org/obo/PATO_
-  # NCBITaxon: http://purl.obolibrary.org/obo/NCBITaxon_
+  NCBITaxon: http://purl.obolibrary.org/obo/NCBITaxon_
   example: https://example.org/
 default_prefix: emi_ontology_linkml
 default_range: string
@@ -93,6 +93,6 @@ enums:
         meaning: PATO:0001422
       UNKNOWN:
         description: the vital status is not known
-        # meaning: NCBITaxon:1897498
+        meaning: NCBITaxon:1897498
         todos:
           - map this to an ontology
