@@ -356,6 +356,7 @@
 
 
 <h1 id="enum-personstatus">Enum: PersonStatus</h1>
+<p><em>The living, dead or unknown status of a person</em></p>
 <p>URI: <a href="./">PersonStatus</a></p>
 <h2 id="permissible-values">Permissible Values</h2>
 <table>
@@ -368,17 +369,17 @@
 </thead>
 <tbody>
 <tr>
-<td>ALIVE</td>
+<td>alive</td>
 <td>PATO:0001421</td>
 <td>the person is living</td>
 </tr>
 <tr>
-<td>DEAD</td>
+<td>dead</td>
 <td>PATO:0001422</td>
 <td>the person is deceased</td>
 </tr>
 <tr>
-<td>UNKNOWN</td>
+<td>unknown</td>
 <td>NCBITaxon:1897498</td>
 <td>the vital status is not known</td>
 </tr>
@@ -408,19 +409,20 @@
 <details>
 
 <pre><code class="language-yaml">name: PersonStatus
+description: The living, dead or unknown status of a person
 from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
 rank: 1000
 permissible_values:
-  ALIVE:
-    text: ALIVE
+  alive:
+    text: alive
     description: the person is living
     meaning: PATO:0001421
-  DEAD:
-    text: DEAD
+  dead:
+    text: dead
     description: the person is deceased
     meaning: PATO:0001422
-  UNKNOWN:
-    text: UNKNOWN
+  unknown:
+    text: unknown
     description: the vital status is not known
     meaning: NCBITaxon:1897498
     todos:

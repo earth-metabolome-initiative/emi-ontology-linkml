@@ -2,138 +2,138 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>https://earth-metabolome-initiative.github.io/emi-ontology-linkml/</loc>
-         <lastmod>2025-05-02</lastmod>
+         <lastmod>2025-05-03</lastmod>
     </url>
     <url>
          <loc>https://earth-metabolome-initiative.github.io/emi-ontology-linkml/Boolean/</loc>
-         <lastmod>2025-05-02</lastmod>
+         <lastmod>2025-05-03</lastmod>
     </url>
     <url>
          <loc>https://earth-metabolome-initiative.github.io/emi-ontology-linkml/Curie/</loc>
-         <lastmod>2025-05-02</lastmod>
+         <lastmod>2025-05-03</lastmod>
     </url>
     <url>
          <loc>https://earth-metabolome-initiative.github.io/emi-ontology-linkml/Date/</loc>
-         <lastmod>2025-05-02</lastmod>
+         <lastmod>2025-05-03</lastmod>
     </url>
     <url>
          <loc>https://earth-metabolome-initiative.github.io/emi-ontology-linkml/DateOrDatetime/</loc>
-         <lastmod>2025-05-02</lastmod>
+         <lastmod>2025-05-03</lastmod>
     </url>
     <url>
          <loc>https://earth-metabolome-initiative.github.io/emi-ontology-linkml/Datetime/</loc>
-         <lastmod>2025-05-02</lastmod>
+         <lastmod>2025-05-03</lastmod>
     </url>
     <url>
          <loc>https://earth-metabolome-initiative.github.io/emi-ontology-linkml/Decimal/</loc>
-         <lastmod>2025-05-02</lastmod>
+         <lastmod>2025-05-03</lastmod>
     </url>
     <url>
          <loc>https://earth-metabolome-initiative.github.io/emi-ontology-linkml/Double/</loc>
-         <lastmod>2025-05-02</lastmod>
+         <lastmod>2025-05-03</lastmod>
     </url>
     <url>
          <loc>https://earth-metabolome-initiative.github.io/emi-ontology-linkml/Float/</loc>
-         <lastmod>2025-05-02</lastmod>
+         <lastmod>2025-05-03</lastmod>
     </url>
     <url>
          <loc>https://earth-metabolome-initiative.github.io/emi-ontology-linkml/Integer/</loc>
-         <lastmod>2025-05-02</lastmod>
+         <lastmod>2025-05-03</lastmod>
     </url>
     <url>
          <loc>https://earth-metabolome-initiative.github.io/emi-ontology-linkml/Jsonpath/</loc>
-         <lastmod>2025-05-02</lastmod>
+         <lastmod>2025-05-03</lastmod>
     </url>
     <url>
          <loc>https://earth-metabolome-initiative.github.io/emi-ontology-linkml/Jsonpointer/</loc>
-         <lastmod>2025-05-02</lastmod>
+         <lastmod>2025-05-03</lastmod>
     </url>
     <url>
          <loc>https://earth-metabolome-initiative.github.io/emi-ontology-linkml/NamedThing/</loc>
-         <lastmod>2025-05-02</lastmod>
+         <lastmod>2025-05-03</lastmod>
     </url>
     <url>
          <loc>https://earth-metabolome-initiative.github.io/emi-ontology-linkml/Ncname/</loc>
-         <lastmod>2025-05-02</lastmod>
+         <lastmod>2025-05-03</lastmod>
     </url>
     <url>
          <loc>https://earth-metabolome-initiative.github.io/emi-ontology-linkml/Nodeidentifier/</loc>
-         <lastmod>2025-05-02</lastmod>
+         <lastmod>2025-05-03</lastmod>
     </url>
     <url>
          <loc>https://earth-metabolome-initiative.github.io/emi-ontology-linkml/Objectidentifier/</loc>
-         <lastmod>2025-05-02</lastmod>
+         <lastmod>2025-05-03</lastmod>
     </url>
     <url>
          <loc>https://earth-metabolome-initiative.github.io/emi-ontology-linkml/Person/</loc>
-         <lastmod>2025-05-02</lastmod>
+         <lastmod>2025-05-03</lastmod>
     </url>
     <url>
          <loc>https://earth-metabolome-initiative.github.io/emi-ontology-linkml/PersonCollection/</loc>
-         <lastmod>2025-05-02</lastmod>
+         <lastmod>2025-05-03</lastmod>
     </url>
     <url>
          <loc>https://earth-metabolome-initiative.github.io/emi-ontology-linkml/PersonStatus/</loc>
-         <lastmod>2025-05-02</lastmod>
+         <lastmod>2025-05-03</lastmod>
     </url>
     <url>
          <loc>https://earth-metabolome-initiative.github.io/emi-ontology-linkml/Sparqlpath/</loc>
-         <lastmod>2025-05-02</lastmod>
+         <lastmod>2025-05-03</lastmod>
     </url>
     <url>
          <loc>https://earth-metabolome-initiative.github.io/emi-ontology-linkml/String/</loc>
-         <lastmod>2025-05-02</lastmod>
+         <lastmod>2025-05-03</lastmod>
     </url>
     <url>
          <loc>https://earth-metabolome-initiative.github.io/emi-ontology-linkml/Time/</loc>
-         <lastmod>2025-05-02</lastmod>
+         <lastmod>2025-05-03</lastmod>
     </url>
     <url>
          <loc>https://earth-metabolome-initiative.github.io/emi-ontology-linkml/Uri/</loc>
-         <lastmod>2025-05-02</lastmod>
+         <lastmod>2025-05-03</lastmod>
     </url>
     <url>
          <loc>https://earth-metabolome-initiative.github.io/emi-ontology-linkml/Uriorcurie/</loc>
-         <lastmod>2025-05-02</lastmod>
+         <lastmod>2025-05-03</lastmod>
     </url>
     <url>
          <loc>https://earth-metabolome-initiative.github.io/emi-ontology-linkml/about/</loc>
-         <lastmod>2025-05-02</lastmod>
+         <lastmod>2025-05-03</lastmod>
     </url>
     <url>
          <loc>https://earth-metabolome-initiative.github.io/emi-ontology-linkml/age_in_years/</loc>
-         <lastmod>2025-05-02</lastmod>
+         <lastmod>2025-05-03</lastmod>
     </url>
     <url>
          <loc>https://earth-metabolome-initiative.github.io/emi-ontology-linkml/birth_date/</loc>
-         <lastmod>2025-05-02</lastmod>
+         <lastmod>2025-05-03</lastmod>
     </url>
     <url>
          <loc>https://earth-metabolome-initiative.github.io/emi-ontology-linkml/description/</loc>
-         <lastmod>2025-05-02</lastmod>
+         <lastmod>2025-05-03</lastmod>
     </url>
     <url>
          <loc>https://earth-metabolome-initiative.github.io/emi-ontology-linkml/emi-ontology-linkml/</loc>
-         <lastmod>2025-05-02</lastmod>
+         <lastmod>2025-05-03</lastmod>
     </url>
     <url>
          <loc>https://earth-metabolome-initiative.github.io/emi-ontology-linkml/entries/</loc>
-         <lastmod>2025-05-02</lastmod>
+         <lastmod>2025-05-03</lastmod>
     </url>
     <url>
          <loc>https://earth-metabolome-initiative.github.io/emi-ontology-linkml/id/</loc>
-         <lastmod>2025-05-02</lastmod>
+         <lastmod>2025-05-03</lastmod>
     </url>
     <url>
          <loc>https://earth-metabolome-initiative.github.io/emi-ontology-linkml/name/</loc>
-         <lastmod>2025-05-02</lastmod>
+         <lastmod>2025-05-03</lastmod>
     </url>
     <url>
          <loc>https://earth-metabolome-initiative.github.io/emi-ontology-linkml/primary_email/</loc>
-         <lastmod>2025-05-02</lastmod>
+         <lastmod>2025-05-03</lastmod>
     </url>
     <url>
          <loc>https://earth-metabolome-initiative.github.io/emi-ontology-linkml/vital_status/</loc>
-         <lastmod>2025-05-02</lastmod>
+         <lastmod>2025-05-03</lastmod>
     </url>
 </urlset>
