@@ -11,11 +11,11 @@ see_also:
 prefixes:
   emi_ontology_linkml: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml/
   linkml: https://w3id.org/linkml/
-  biolink: https://w3id.org/biolink/
+  biolink: https://w3id.org/biolink/vocab/
   schema: http://schema.org/
   PATO: http://purl.obolibrary.org/obo/PATO_
   NCBITaxon: http://purl.obolibrary.org/obo/NCBITaxon_
-  example: https://example.org/
+  example: http://www.example.org/rdf#
 default_prefix: emi_ontology_linkml
 default_range: string
 
@@ -52,6 +52,8 @@ classes:
       A holder for Person objects
     attributes:
       entries:
+        description: >-
+          A collection of Person objects
         range: Person
         multivalued: true
         inlined: true
@@ -84,14 +86,16 @@ slots:
 
 enums:
   PersonStatus:
+    description: >-
+      The living, dead or unknown status of a person
     permissible_values:
-      ALIVE:
+      alive:
         description: the person is living
         meaning: PATO:0001421
-      DEAD:
+      dead:
         description: the person is deceased
         meaning: PATO:0001422
-      UNKNOWN:
+      unknown:
         description: the vital status is not known
         meaning: NCBITaxon:1897498
         todos:
