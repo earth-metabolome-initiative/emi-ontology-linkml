@@ -1,0 +1,149 @@
+id: https://w3id.org/nmdc/deprecated
+name: NMDC-Deprecated-Elements
+title: NMDC Schema Deprecated Elements
+description: Elements that have been deprecated over time, in the schema for National Microbiome Data Collaborative (NMDC).
+license: https://creativecommons.org/publicdomain/zero/1.0/
+
+prefixes:
+  linkml: "https://w3id.org/linkml/"
+  nmdc: "https://w3id.org/nmdc/"
+  OBI: "http://purl.obolibrary.org/obo/OBI_"
+
+default_prefix: nmdc
+default_range: string
+
+classes:
+  PeptideQuantification:
+    class_uri: nmdc:PeptideQuantification
+    description: This is used to link a metaproteomics analysis workflow to a specific peptide sequence and related information
+    slots:
+      - type
+      - all_proteins
+      - best_protein
+      - min_q_value
+      - peptide_sequence
+      - peptide_spectral_count
+      - peptide_sum_masic_abundance
+    deprecated: "not used. 2024-11 https://github.com/microbiomedata/nmdc-schema/issues/2250"
+
+  ProteinQuantification:
+    class_uri: nmdc:ProteinQuantification
+    description: This is used to link a metaproteomics analysis workflow to a specific protein
+    slots:
+      - all_proteins
+      - best_protein
+      - peptide_sequence_count
+      - protein_spectral_count
+      - protein_sum_masic_abundance
+      - type
+    deprecated: "not used. 2024-11 https://github.com/microbiomedata/nmdc-schema/issues/2250"
+
+  ProtocolExecution:
+    class_uri: nmdc:ProtocolExecution
+    is_a: PlannedProcess
+    description: A PlannedProces that has PlannedProcess parts. Can be used to represent the case of someone following a Protocol.
+    slots:
+      - has_process_parts
+      - protocol_execution_category
+    slot_usage:
+      id:
+        required: true
+        structured_pattern:
+          syntax: "{id_nmdc_prefix}:pex-{id_shoulder}-{id_blade}$"
+          interpolated: true
+      has_input:
+        structured_pattern:
+          syntax: "{id_nmdc_prefix}:(bsm|procsm)-{id_shoulder}-{id_blade}$"
+          interpolated: true
+      has_output:
+        structured_pattern:
+          syntax: "{id_nmdc_prefix}:(procsm)-{id_shoulder}-{id_blade}$"
+          interpolated: true
+      has_process_parts:
+        required: true
+        structured_pattern:
+          syntax: "{id_nmdc_prefix}:(extrp|filtpr|dispro|poolp|libprp|subspr|mixpro|chcpr|cspro)-{id_shoulder}-{id_blade}$"
+          interpolated: true
+        description: The MaterialProcessing steps that are discrete parts of the ProtocolExecution.
+    deprecated: "not used, not fulfilling intended purpose https://github.com/microbiomedata/nmdc-schema/issues/2336"
+
+slots:
+  omics_type:
+    deprecated_element_has_exact_replacement: analyte_category
+    deprecated: true
+    description: The type of omics data
+    examples:
+      - value: metatranscriptome
+      - value: metagenome
+  all_proteins:
+    description: the list of protein identifiers that are associated with the peptide sequence
+    range: GeneProduct
+    multivalued: true
+    deprecated: "not used. 2024-11 https://github.com/microbiomedata/nmdc-schema/issues/2250"
+  best_protein:
+    description: the specific protein identifier most correctly associated with the peptide sequence
+    range: GeneProduct
+    deprecated: "not used. 2024-11 https://github.com/microbiomedata/nmdc-schema/issues/2250"
+  min_q_value:
+    description: smallest Q-Value associated with the peptide sequence as provided by MSGFPlus tool
+    range: float
+    see_also:
+      - OBI:0001442
+    deprecated: "not used. 2024-11 https://github.com/microbiomedata/nmdc-schema/issues/2250"
+  peptide_sequence:
+    range: string
+    deprecated: "not used. 2024-11 https://github.com/microbiomedata/nmdc-schema/issues/2250"
+  peptide_spectral_count:
+    description: sum of filter passing MS2 spectra associated with the peptide sequence within a given LC-MS/MS data file
+    range: integer
+    deprecated: "not used. 2024-11 https://github.com/microbiomedata/nmdc-schema/issues/2250"
+  peptide_sum_masic_abundance:
+    description: >-
+      combined MS1 extracted ion chromatograms derived from MS2 spectra associated with the peptide sequence from a given LC-MS/MS data file using the MASIC tool
+    range: integer
+    deprecated: "not used. 2024-11 https://github.com/microbiomedata/nmdc-schema/issues/2250"
+  peptide_sequence_count:
+    description: count of peptide sequences grouped to the best_protein
+    range: integer
+    deprecated: "not used. 2024-11 https://github.com/microbiomedata/nmdc-schema/issues/2250"
+  protein_spectral_count:
+    description: sum of filter passing MS2 spectra associated with the best protein within a given LC-MS/MS data file
+    range: integer
+    deprecated: "not used. 2024-11 https://github.com/microbiomedata/nmdc-schema/issues/2250"
+  protein_sum_masic_abundance:
+    description: >-
+      combined MS1 extracted ion chromatograms derived from MS2 spectra associated with the best protein from a given LC-MS/MS data file using the MASIC tool
+    range: integer
+    deprecated: "not used. 2024-11 https://github.com/microbiomedata/nmdc-schema/issues/2250"
+  metagenome_annotation_id:
+    range: WorkflowExecution
+    description: The identifier for the analysis activity that generated the functional annotation results, where the analysis activity is an instance of the/an appropriate subclass of WorkflowExecution
+    required: true
+    deprecated: "not used. 2024-10 https://github.com/microbiomedata/nmdc-schema/issues/1253"
+  has_peptide_quantifications:
+    range: PeptideQuantification
+    multivalued: true
+    inlined_as_list: true
+    deprecated: "not used. 2024-11 https://github.com/microbiomedata/nmdc-schema/issues/2250"
+  protocol_execution_set:
+    mixins: object_set
+    range: ProtocolExecution
+    description: This property links a database object to the set of protocol executions within it.
+    deprecated: "not used https://github.com/microbiomedata/nmdc-schema/issues/2336"
+  protocol_execution_category:
+    range: ProtocolCategoryEnum
+    required: true
+    deprecated: "not used https://github.com/microbiomedata/nmdc-schema/issues/2336"
+  has_process_parts:
+    range: PlannedProcess
+    description: A list of process parts that make up a protocol.
+    required: true
+    multivalued: true
+    list_elements_ordered: true
+    deprecated: "not used https://github.com/microbiomedata/nmdc-schema/issues/2336"
+  sample_state_information:
+    description: >-
+      The chemical phase of a pure sample, or the state of a mixed sample
+    range: SampleStateEnum
+    deprecated: "not used https://github.com/microbiomedata/nmdc-schema/issues/2353"
+    last_updated_on: "2025-04-15"
