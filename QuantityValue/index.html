@@ -1523,7 +1523,7 @@
 <h2 id="identifier-and-mapping-information">Identifier and Mapping Information</h2>
 <h3 id="schema-source">Schema Source</h3>
 <ul>
-<li>from schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml</li>
+<li>from schema: https://www.earthmetabolome.org/emi-ontology-linkml/</li>
 </ul>
 <h2 id="mappings">Mappings</h2>
 <table>
@@ -1554,7 +1554,7 @@
 <details>
 <pre><code class="language-yaml">name: QuantityValue
 description: A simple quantity, e.g. 2cm
-from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
 mappings:
 - schema:QuantityValue
 is_a: AttributeValue
@@ -1582,7 +1582,7 @@ class_uri: nmdc:QuantityValue
 <details>
 <pre><code class="language-yaml">name: QuantityValue
 description: A simple quantity, e.g. 2cm
-from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
 mappings:
 - schema:QuantityValue
 is_a: AttributeValue
@@ -1602,7 +1602,7 @@ attributes:
     name: has_maximum_numeric_value
     description: The maximum value part, expressed as number, of the quantity value
       when the value covers a range.
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     rank: 1000
     is_a: has_numeric_value
     alias: has_maximum_numeric_value
@@ -1614,7 +1614,7 @@ attributes:
     name: has_minimum_numeric_value
     description: The minimum value part, expressed as number, of the quantity value
       when the value covers a range.
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     rank: 1000
     is_a: has_numeric_value
     alias: has_minimum_numeric_value
@@ -1625,7 +1625,7 @@ attributes:
   has_numeric_value:
     name: has_numeric_value
     description: The number part of the quantity
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     mappings:
     - qud:quantityValue
     - schema:value
@@ -1638,7 +1638,7 @@ attributes:
   has_unit:
     name: has_unit
     description: The unit of the quantity
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     aliases:
     - scale
     mappings:
@@ -1654,7 +1654,7 @@ attributes:
     name: has_raw_value
     description: Unnormalized atomic string representation, should in syntax {number}
       {unit}
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     rank: 1000
     alias: has_raw_value
     owner: QuantityValue
@@ -1670,7 +1670,7 @@ attributes:
     examples:
     - value: nmdc:Biosample
     - value: nmdc:Study
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     see_also:
     - https://github.com/microbiomedata/nmdc-schema/issues/1048
     - https://github.com/microbiomedata/nmdc-schema/issues/1233

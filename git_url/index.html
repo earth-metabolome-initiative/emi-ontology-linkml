@@ -375,7 +375,7 @@
 
 <h1 id="slot-git_url">Slot: git_url</h1>
 <p><em>The url that points to the exact github location of a workflow.</em></p>
-<p>URI: <a href="https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml/git_url">emi:git_url</a>
+<p>URI: <a href="https://www.earthmetabolome.org/emi-ontology-linkml/git_url">emi:git_url</a>
 Alias: git_url</p>
 <!-- no inheritance hierarchy -->
 
@@ -390,8 +390,8 @@ Alias: git_url</p>
 </thead>
 <tbody>
 <tr>
-<td><a href="../MetagenomeSequencing/">MetagenomeSequencing</a></td>
-<td>Initial sequencing activity that precedes any analysis</td>
+<td><a href="../ReadBasedTaxonomyAnalysis/">ReadBasedTaxonomyAnalysis</a></td>
+<td>A workflow execution activity that performs taxonomy classification using seq...</td>
 <td>no</td>
 </tr>
 <tr>
@@ -400,27 +400,12 @@ Alias: git_url</p>
 <td>no</td>
 </tr>
 <tr>
-<td><a href="../ReadBasedTaxonomyAnalysis/">ReadBasedTaxonomyAnalysis</a></td>
-<td>A workflow execution activity that performs taxonomy classification using seq...</td>
-<td>no</td>
-</tr>
-<tr>
-<td><a href="../MagsAnalysis/">MagsAnalysis</a></td>
-<td>A workflow execution activity that uses computational binning tools to group ...</td>
-<td>no</td>
-</tr>
-<tr>
 <td><a href="../NomAnalysis/">NomAnalysis</a></td>
 <td></td>
 <td>no</td>
 </tr>
 <tr>
-<td><a href="../MetatranscriptomeAnnotation/">MetatranscriptomeAnnotation</a></td>
-<td></td>
-<td>no</td>
-</tr>
-<tr>
-<td><a href="../MetabolomicsAnalysis/">MetabolomicsAnalysis</a></td>
+<td><a href="../MetaproteomicsAnalysis/">MetaproteomicsAnalysis</a></td>
 <td></td>
 <td>no</td>
 </tr>
@@ -430,22 +415,7 @@ Alias: git_url</p>
 <td>no</td>
 </tr>
 <tr>
-<td><a href="../MetatranscriptomeAssembly/">MetatranscriptomeAssembly</a></td>
-<td></td>
-<td>no</td>
-</tr>
-<tr>
-<td><a href="../ReadQcAnalysis/">ReadQcAnalysis</a></td>
-<td>A workflow execution activity that performs quality control on raw Illumina r...</td>
-<td>no</td>
-</tr>
-<tr>
-<td><a href="../WorkflowExecution/">WorkflowExecution</a></td>
-<td>Represents an instance of an execution of a particular workflow</td>
-<td>yes</td>
-</tr>
-<tr>
-<td><a href="../MetaproteomicsAnalysis/">MetaproteomicsAnalysis</a></td>
+<td><a href="../MetabolomicsAnalysis/">MetabolomicsAnalysis</a></td>
 <td></td>
 <td>no</td>
 </tr>
@@ -455,8 +425,38 @@ Alias: git_url</p>
 <td>no</td>
 </tr>
 <tr>
+<td><a href="../MagsAnalysis/">MagsAnalysis</a></td>
+<td>A workflow execution activity that uses computational binning tools to group ...</td>
+<td>no</td>
+</tr>
+<tr>
+<td><a href="../MetagenomeSequencing/">MetagenomeSequencing</a></td>
+<td>Initial sequencing activity that precedes any analysis</td>
+<td>no</td>
+</tr>
+<tr>
+<td><a href="../MetatranscriptomeAssembly/">MetatranscriptomeAssembly</a></td>
+<td></td>
+<td>no</td>
+</tr>
+<tr>
 <td><a href="../AnnotatingWorkflow/">AnnotatingWorkflow</a></td>
 <td>A WorkflowExecution whose output indicates the potential functions of genes o...</td>
+<td>no</td>
+</tr>
+<tr>
+<td><a href="../WorkflowExecution/">WorkflowExecution</a></td>
+<td>Represents an instance of an execution of a particular workflow</td>
+<td>yes</td>
+</tr>
+<tr>
+<td><a href="../ReadQcAnalysis/">ReadQcAnalysis</a></td>
+<td>A workflow execution activity that performs quality control on raw Illumina r...</td>
+<td>no</td>
+</tr>
+<tr>
+<td><a href="../MetatranscriptomeAnnotation/">MetatranscriptomeAnnotation</a></td>
+<td></td>
 <td>no</td>
 </tr>
 </tbody>
@@ -484,7 +484,7 @@ Alias: git_url</p>
 <h2 id="identifier-and-mapping-information">Identifier and Mapping Information</h2>
 <h3 id="schema-source">Schema Source</h3>
 <ul>
-<li>from schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml</li>
+<li>from schema: https://www.earthmetabolome.org/emi-ontology-linkml/</li>
 </ul>
 <h2 id="mappings">Mappings</h2>
 <table>
@@ -513,7 +513,7 @@ description: The url that points to the exact github location of a workflow.
 examples:
 - value: https://github.com/microbiomedata/mg_annotation/releases/tag/0.1
 - value: https://github.com/microbiomedata/metaMS/blob/master/metaMS/gcmsWorkflow.py
-from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
 rank: 1000
 alias: git_url
 domain_of:

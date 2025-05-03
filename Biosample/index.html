@@ -8466,7 +8466,7 @@
 <h2 id="identifier-and-mapping-information">Identifier and Mapping Information</h2>
 <h3 id="schema-source">Schema Source</h3>
 <ul>
-<li>from schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml</li>
+<li>from schema: https://www.earthmetabolome.org/emi-ontology-linkml/</li>
 </ul>
 <h2 id="mappings">Mappings</h2>
 <table>
@@ -8505,7 +8505,7 @@ alt_descriptions:
       the samples. Samples are always associated with a taxon.
 notes:
 - could add GOLD and EBI's biosample definitions to the alt_descriptions?
-from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
 aliases:
 - sample
 - material sample
@@ -9534,7 +9534,7 @@ alt_descriptions:
       the samples. Samples are always associated with a taxon.
 notes:
 - could add GOLD and EBI's biosample definitions to the alt_descriptions?
-from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
 aliases:
 - sample
 - material sample
@@ -9880,7 +9880,7 @@ attributes:
   associated_studies:
     name: associated_studies
     description: The study associated with a resource.
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     rank: 1000
     alias: associated_studies
     owner: Biosample
@@ -9896,7 +9896,7 @@ attributes:
   biosample_categories:
     name: biosample_categories
     title: Categories the biosample belongs to
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     rank: 1000
     alias: biosample_categories
     owner: Biosample
@@ -9911,7 +9911,7 @@ attributes:
     - add an OBO slot_uri ?
     comments:
     - this illustrates implementing a Biosample relation with a (binary) slot
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     rank: 1000
     alias: collected_from
     owner: Biosample
@@ -9929,7 +9929,7 @@ attributes:
     - first apply to Biosample
     - try to apply to all Biosamples in a particular nmdc-server SubmissionMetadata?
     - applying to a Study may not be granular enough
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     rank: 1000
     alias: embargoed
     owner: Biosample
@@ -9950,7 +9950,7 @@ attributes:
     title: host disease status
     examples:
     - value: rabies [DOID:11260]
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     aliases:
     - host disease status
     rank: 1000
@@ -9976,7 +9976,7 @@ attributes:
     title: host taxid
     comments:
     - Homo sapiens [NCBITaxon:9606] would be a reasonable has_raw_value
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     aliases:
     - host taxid
     rank: 1000
@@ -9997,7 +9997,7 @@ attributes:
     - add is_a or mixin modeling, like other external_database_identifiers
     - what class would IMG records belong to?! Are they Studies, Biosamples, or something
       else?
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     rank: 1000
     is_a: external_database_identifiers
     alias: img_identifiers
@@ -10013,7 +10013,7 @@ attributes:
     pattern: ^img\.taxon:[a-zA-Z0-9_][a-zA-Z0-9_\/\.]*$
   neon_biosample_identifiers:
     name: neon_biosample_identifiers
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     rank: 1000
     is_a: biosample_identifiers
     mixins:
@@ -10041,7 +10041,7 @@ attributes:
     title: sample name
     examples:
     - value: ISDsoil1
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     aliases:
     - sample name
     rank: 1000
@@ -10066,7 +10066,7 @@ attributes:
     - This is the ID provided by GOLD that starts with 'Gb'
     examples:
     - value: gold:Gb0312930
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     rank: 1000
     is_a: biosample_identifiers
     mixins:
@@ -10086,7 +10086,7 @@ attributes:
     - value: biosample:SAMD00212331
       description: I13_N_5-10 sample from Soil fungal diversity along elevational
         gradients
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     see_also:
     - https://github.com/bioregistry/bioregistry/issues/108
     - https://www.ebi.ac.uk/biosamples/
@@ -10116,7 +10116,7 @@ attributes:
     todos:
     - removed "planned" once NEXUS is online
     - determine real expansion for emsl prefix
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     rank: 1000
     is_a: biosample_identifiers
     mixins:
@@ -10132,7 +10132,7 @@ attributes:
     name: igsn_biosample_identifiers
     description: A list of identifiers for the biosample from the IGSN database.
     title: IGSN Biosample Identifiers
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     rank: 1000
     is_a: biosample_identifiers
     mixins:
@@ -10161,7 +10161,7 @@ attributes:
     title: absolute air humidity
     examples:
     - value: 9 gram per gram
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     aliases:
     - absolute air humidity
     rank: 1000
@@ -10189,7 +10189,7 @@ attributes:
     title: secondary and tertiary recovery methods and start date
     examples:
     - value: Polymer Addition;2018-06-21T14:30Z
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     aliases:
     - secondary and tertiary recovery methods and start date
     rank: 1000
@@ -10215,7 +10215,7 @@ attributes:
     title: additional info
     examples:
     - value: ''
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     aliases:
     - additional info
     rank: 1000
@@ -10241,7 +10241,7 @@ attributes:
     title: address
     examples:
     - value: ''
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     aliases:
     - address
     rank: 1000
@@ -10268,7 +10268,7 @@ attributes:
     title: adjacent rooms
     examples:
     - value: ''
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     aliases:
     - adjacent rooms
     rank: 1000
@@ -10296,7 +10296,7 @@ attributes:
     title: aerospace structure
     examples:
     - value: plane
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     aliases:
     - aerospace structure
     rank: 1000
@@ -10325,7 +10325,7 @@ attributes:
     title: history/agrochemical additions
     examples:
     - value: roundup;5 milligram per liter;2018-06-21
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     aliases:
     - history/agrochemical additions
     rank: 1000
@@ -10358,7 +10358,7 @@ attributes:
     title: air particulate matter concentration
     examples:
     - value: PM2.5;10 microgram per cubic meter
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     aliases:
     - air particulate matter concentration
     rank: 1000
@@ -10389,7 +10389,7 @@ attributes:
     title: air temperature
     examples:
     - value: 20 degree Celsius
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     aliases:
     - air temperature
     rank: 1000
@@ -10420,7 +10420,7 @@ attributes:
     title: air temperature regimen
     examples:
     - value: 25 degree Celsius;R2/2018-05-11T14:30/2018-05-11T19:30/P1H30M
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     aliases:
     - air temperature regimen
     rank: 1000
@@ -10461,7 +10461,7 @@ attributes:
       with aluminum in the soil solution.
     examples:
     - value: 27%
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     aliases:
     - extreme_unusual_properties/Al saturation
     rank: 1000
@@ -10490,7 +10490,7 @@ attributes:
     - Required when aluminum saturation is provided.
     examples:
     - value: https://doi.org/10.1371/journal.pone.0176357
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     aliases:
     - extreme_unusual_properties/Al saturation method
     rank: 1000
@@ -10520,7 +10520,7 @@ attributes:
     title: alkalinity
     examples:
     - value: 50 milligram per liter
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     aliases:
     - alkalinity
     rank: 1000
@@ -10545,7 +10545,7 @@ attributes:
     title: alkalinity method
     examples:
     - value: titration
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     aliases:
     - alkalinity method
     rank: 1000
@@ -10574,7 +10574,7 @@ attributes:
     title: alkyl diethers
     examples:
     - value: 0.005 mole per liter
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     aliases:
     - alkyl diethers
     rank: 1000
@@ -10601,7 +10601,7 @@ attributes:
     title: altitude
     examples:
     - value: 100 meter
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     aliases:
     - altitude
     rank: 1000
@@ -10629,7 +10629,7 @@ attributes:
     title: aminopeptidase activity
     examples:
     - value: 0.269 mole per liter per hour
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     aliases:
     - aminopeptidase activity
     rank: 1000
@@ -10657,7 +10657,7 @@ attributes:
     title: ammonium
     examples:
     - value: 1.5 milligram per liter
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     aliases:
     - ammonium
     rank: 1000
@@ -10685,7 +10685,7 @@ attributes:
     title: ammonium nitrogen
     examples:
     - value: 2.3 mg/kg
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     see_also:
     - https://www.ornl.gov/content/bio-scales-0
     aliases:
@@ -10714,7 +10714,7 @@ attributes:
     title: amount of light
     examples:
     - value: ''
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     aliases:
     - amount of light
     rank: 1000
@@ -10741,7 +10741,7 @@ attributes:
     title: ancestral data
     examples:
     - value: A/3*B
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     aliases:
     - ancestral data
     rank: 1000
@@ -10771,7 +10771,7 @@ attributes:
     title: mean annual precipitation
     examples:
     - value: 8.94 inch
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     aliases:
     - mean annual precipitation
     rank: 1000
@@ -10799,7 +10799,7 @@ attributes:
     title: mean annual temperature
     examples:
     - value: 12.5 degree Celsius
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     aliases:
     - mean annual temperature
     rank: 1000
@@ -10831,7 +10831,7 @@ attributes:
     title: antibiotic regimen
     examples:
     - value: penicillin;5 milligram;R2/2018-05-11T14:30/2018-05-11T19:30/P1H30M
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     aliases:
     - antibiotic regimen
     rank: 1000
@@ -10864,7 +10864,7 @@ attributes:
     title: API gravity
     examples:
     - value: ''
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     aliases:
     - API gravity
     rank: 1000
@@ -10890,7 +10890,7 @@ attributes:
     title: architectural structure
     examples:
     - value: shed
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     aliases:
     - architectural structure
     rank: 1000
@@ -10922,7 +10922,7 @@ attributes:
     title: aromatics wt%
     examples:
     - value: ''
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     aliases:
     - aromatics wt%
     rank: 1000
@@ -10955,7 +10955,7 @@ attributes:
     title: asphaltenes wt%
     examples:
     - value: ''
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     aliases:
     - asphaltenes wt%
     rank: 1000
@@ -10981,7 +10981,7 @@ attributes:
     title: atmospheric data
     examples:
     - value: wind speed;9 knots
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     aliases:
     - atmospheric data
     rank: 1000
@@ -11013,7 +11013,7 @@ attributes:
     title: average dew point
     examples:
     - value: 25.5 degree Celsius
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     aliases:
     - average dew point
     rank: 1000
@@ -11039,7 +11039,7 @@ attributes:
     title: average daily occupancy
     examples:
     - value: '2'
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     aliases:
     - average daily occupancy
     rank: 1000
@@ -11068,7 +11068,7 @@ attributes:
     title: average temperature
     examples:
     - value: 12.5 degree Celsius
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     aliases:
     - average temperature
     rank: 1000
@@ -11096,7 +11096,7 @@ attributes:
     title: bacterial production
     examples:
     - value: 5 milligram per cubic meter per day
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     aliases:
     - bacterial production
     rank: 1000
@@ -11124,7 +11124,7 @@ attributes:
     title: bacterial respiration
     examples:
     - value: 300 micromole oxygen per liter per hour
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     aliases:
     - bacterial respiration
     rank: 1000
@@ -11152,7 +11152,7 @@ attributes:
     title: bacterial carbon production
     examples:
     - value: 2.53 microgram per liter per hour
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     aliases:
     - bacterial carbon production
     rank: 1000
@@ -11181,7 +11181,7 @@ attributes:
     title: barometric pressure
     examples:
     - value: 5 millibar
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     aliases:
     - barometric pressure
     rank: 1000
@@ -11206,7 +11206,7 @@ attributes:
     title: basin name
     examples:
     - value: ''
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     aliases:
     - basin name
     rank: 1000
@@ -11232,7 +11232,7 @@ attributes:
     title: bathroom count
     examples:
     - value: '1'
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     aliases:
     - bathroom count
     rank: 1000
@@ -11257,7 +11257,7 @@ attributes:
     title: bedroom count
     examples:
     - value: '2'
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     aliases:
     - bedroom count
     rank: 1000
@@ -11285,7 +11285,7 @@ attributes:
     title: benzene
     examples:
     - value: ''
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     aliases:
     - benzene
     rank: 1000
@@ -11315,7 +11315,7 @@ attributes:
     title: biochemical oxygen demand
     examples:
     - value: ''
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     aliases:
     - biochemical oxygen demand
     rank: 1000
@@ -11341,7 +11341,7 @@ attributes:
     title: biocide administration
     examples:
     - value: ALPHA 1427;Baker Hughes;2008-01-23
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     aliases:
     - biocide administration
     rank: 1000
@@ -11372,7 +11372,7 @@ attributes:
     title: biocide administration method
     examples:
     - value: ''
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     aliases:
     - biocide administration method
     rank: 1000
@@ -11398,7 +11398,7 @@ attributes:
     title: biological status
     examples:
     - value: natural
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     aliases:
     - biological status
     rank: 1000
@@ -11427,7 +11427,7 @@ attributes:
     title: biomass
     examples:
     - value: total;20 gram
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     aliases:
     - biomass
     rank: 1000
@@ -11456,7 +11456,7 @@ attributes:
     title: biotic regimen
     examples:
     - value: sample inoculated with Rhizobium spp. Culture
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     aliases:
     - biotic regimen
     rank: 1000
@@ -11482,7 +11482,7 @@ attributes:
     title: observed biotic relationship
     examples:
     - value: free living
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     aliases:
     - observed biotic relationship
     rank: 1000
@@ -11510,7 +11510,7 @@ attributes:
     title: bishomohopanol
     examples:
     - value: 14 microgram per liter
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     aliases:
     - bishomohopanol
     rank: 1000
@@ -11538,7 +11538,7 @@ attributes:
     title: host blood pressure diastolic
     examples:
     - value: ''
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     aliases:
     - host blood pressure diastolic
     rank: 1000
@@ -11566,7 +11566,7 @@ attributes:
     title: host blood pressure systolic
     examples:
     - value: ''
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     aliases:
     - host blood pressure systolic
     rank: 1000
@@ -11594,7 +11594,7 @@ attributes:
     title: bromide
     examples:
     - value: 0.05 parts per million
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     aliases:
     - bromide
     rank: 1000
@@ -11619,7 +11619,7 @@ attributes:
     title: design, construction, and operation documents
     examples:
     - value: maintenance plans
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     aliases:
     - design, construction, and operation documents
     rank: 1000
@@ -11645,7 +11645,7 @@ attributes:
     title: building occupancy type
     examples:
     - value: market
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     aliases:
     - building occupancy type
     rank: 1000
@@ -11670,7 +11670,7 @@ attributes:
     title: building setting
     examples:
     - value: rural
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     aliases:
     - building setting
     rank: 1000
@@ -11698,7 +11698,7 @@ attributes:
     title: built structure age
     examples:
     - value: '15'
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     aliases:
     - built structure age
     rank: 1000
@@ -11724,7 +11724,7 @@ attributes:
     title: built structure setting
     examples:
     - value: rural
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     aliases:
     - built structure setting
     rank: 1000
@@ -11751,7 +11751,7 @@ attributes:
     title: built structure type
     examples:
     - value: ''
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     aliases:
     - built structure type
     rank: 1000
@@ -11780,7 +11780,7 @@ attributes:
     title: calcium
     examples:
     - value: 0.2 micromole per liter
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     aliases:
     - calcium
     rank: 1000
@@ -11808,7 +11808,7 @@ attributes:
     title: carbon dioxide
     examples:
     - value: 410 parts per million
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     aliases:
     - carbon dioxide
     rank: 1000
@@ -11836,7 +11836,7 @@ attributes:
     title: carbon monoxide
     examples:
     - value: 0.1 parts per million
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     aliases:
     - carbon monoxide
     rank: 1000
@@ -11861,7 +11861,7 @@ attributes:
     title: carbon/nitrogen ratio
     examples:
     - value: '0.417361111'
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     aliases:
     - carbon/nitrogen ratio
     rank: 1000
@@ -11889,7 +11889,7 @@ attributes:
     title: ceiling area
     examples:
     - value: 25 square meter
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     aliases:
     - ceiling area
     rank: 1000
@@ -11915,7 +11915,7 @@ attributes:
     title: ceiling condition
     examples:
     - value: damaged
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     aliases:
     - ceiling condition
     rank: 1000
@@ -11940,7 +11940,7 @@ attributes:
     title: ceiling finish material
     examples:
     - value: stucco
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     aliases:
     - ceiling finish material
     rank: 1000
@@ -11965,7 +11965,7 @@ attributes:
     title: ceiling structure
     examples:
     - value: concrete
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     aliases:
     - ceiling structure
     rank: 1000
@@ -11991,7 +11991,7 @@ attributes:
     title: ceiling texture
     examples:
     - value: popcorn
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     aliases:
     - ceiling texture
     rank: 1000
@@ -12022,7 +12022,7 @@ attributes:
     title: ceiling thermal mass
     examples:
     - value: ''
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     aliases:
     - ceiling thermal mass
     rank: 1000
@@ -12047,7 +12047,7 @@ attributes:
     title: ceiling type
     examples:
     - value: coffered
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     aliases:
     - ceiling type
     rank: 1000
@@ -12072,7 +12072,7 @@ attributes:
     title: ceiling signs of water/mold
     examples:
     - value: presence of mold visible
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     aliases:
     - ceiling signs of water/mold
     rank: 1000
@@ -12101,7 +12101,7 @@ attributes:
     title: chemical administration
     examples:
     - value: agar [CHEBI:2509];2018-05-11T20:00Z
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     aliases:
     - chemical administration
     rank: 1000
@@ -12135,7 +12135,7 @@ attributes:
     title: chemical mutagen
     examples:
     - value: nitrous acid;0.5 milligram per liter;R2/2018-05-11T14:30/2018-05-11T19:30/P1H30M
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     aliases:
     - chemical mutagen
     rank: 1000
@@ -12168,7 +12168,7 @@ attributes:
     title: chemical oxygen demand
     examples:
     - value: ''
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     aliases:
     - chemical oxygen demand
     rank: 1000
@@ -12198,7 +12198,7 @@ attributes:
     title: chemical treatment method
     examples:
     - value: ''
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     aliases:
     - chemical treatment method
     rank: 1000
@@ -12228,7 +12228,7 @@ attributes:
     title: chemical treatment
     examples:
     - value: ACCENT 1125;DOW;2010-11-17
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     aliases:
     - chemical treatment
     rank: 1000
@@ -12257,7 +12257,7 @@ attributes:
     title: chloride
     examples:
     - value: 5000 milligram per liter
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     aliases:
     - chloride
     rank: 1000
@@ -12285,7 +12285,7 @@ attributes:
     title: chlorophyll
     examples:
     - value: 5 milligram per cubic meter
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     aliases:
     - chlorophyll
     rank: 1000
@@ -12316,7 +12316,7 @@ attributes:
     - add examples, i need to see some examples to add correctly formatted example.
     examples:
     - value: tropical climate;R2/2018-05-11T14:30/2018-05-11T19:30/P1H30M
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     aliases:
     - climate environment
     rank: 1000
@@ -12344,7 +12344,7 @@ attributes:
     title: collection date
     examples:
     - value: 2018-05-11T10:00:00+01:00; 2018-05-11
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     aliases:
     - collection date
     rank: 1000
@@ -12372,7 +12372,7 @@ attributes:
     title: conductivity
     examples:
     - value: 10 milliSiemens per centimeter
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     aliases:
     - conductivity
     rank: 1000
@@ -12397,7 +12397,7 @@ attributes:
     title: cooling system identifier
     examples:
     - value: '12345'
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     aliases:
     - cooling system identifier
     rank: 1000
@@ -12412,7 +12412,7 @@ attributes:
   core field:
     name: core field
     description: basic fields
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     rank: 1000
     abstract: true
     alias: core_field
@@ -12433,7 +12433,7 @@ attributes:
     title: history/crop rotation
     examples:
     - value: yes;R2/2017-01-01/2018-12-31/P6M
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     aliases:
     - history/crop rotation
     rank: 1000
@@ -12462,7 +12462,7 @@ attributes:
     title: culture rooting medium
     examples:
     - value: http://himedialabs.com/TD/PT158.pdf
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     aliases:
     - culture rooting medium
     rank: 1000
@@ -12488,7 +12488,7 @@ attributes:
     title: current land use
     examples:
     - value: conifers
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     aliases:
     - current land use
     rank: 1000
@@ -12521,7 +12521,7 @@ attributes:
     - value: deciduous forest
     - value: forest
     - value: Bauhinia variegata
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     aliases:
     - current vegetation
     rank: 1000
@@ -12553,7 +12553,7 @@ attributes:
     - Required when current vegetation is provided.
     examples:
     - value: https://doi.org/10.1111/j.1654-109X.2011.01154.x
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     aliases:
     - current vegetation method
     rank: 1000
@@ -12579,7 +12579,7 @@ attributes:
     title: date last rain
     examples:
     - value: 2018-05-11:T14:30Z
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     aliases:
     - date last rain
     rank: 1000
@@ -12608,7 +12608,7 @@ attributes:
     title: density
     examples:
     - value: 1000 kilogram per cubic meter
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     aliases:
     - density
     rank: 1000
@@ -12634,7 +12634,7 @@ attributes:
     title: depositional environment
     examples:
     - value: Continental - Alluvial
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     aliases:
     - depositional environment
     rank: 1000
@@ -12658,7 +12658,7 @@ attributes:
     title: depth
     examples:
     - value: 10 meter
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     aliases:
     - depth
     rank: 1000
@@ -12687,7 +12687,7 @@ attributes:
     title: dew point
     examples:
     - value: 22 degree Celsius
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     aliases:
     - dew point
     rank: 1000
@@ -12716,7 +12716,7 @@ attributes:
     title: diether lipids
     examples:
     - value: 0.2 nanogram per liter
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     aliases:
     - diether lipids
     rank: 1000
@@ -12748,7 +12748,7 @@ attributes:
     title: dissolved carbon dioxide
     examples:
     - value: 5 milligram per liter
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     aliases:
     - dissolved carbon dioxide
     rank: 1000
@@ -12776,7 +12776,7 @@ attributes:
     title: dissolved hydrogen
     examples:
     - value: 0.3 micromole per liter
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     aliases:
     - dissolved hydrogen
     rank: 1000
@@ -12805,7 +12805,7 @@ attributes:
     title: dissolved inorganic carbon
     examples:
     - value: 2059 micromole per kilogram
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     aliases:
     - dissolved inorganic carbon
     rank: 1000
@@ -12833,7 +12833,7 @@ attributes:
     title: dissolved inorganic nitrogen
     examples:
     - value: 761 micromole per liter
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     aliases:
     - dissolved inorganic nitrogen
     rank: 1000
@@ -12861,7 +12861,7 @@ attributes:
     title: dissolved inorganic phosphorus
     examples:
     - value: 56.5 micromole per liter
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     aliases:
     - dissolved inorganic phosphorus
     rank: 1000
@@ -12889,7 +12889,7 @@ attributes:
     title: dissolved iron
     examples:
     - value: ''
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     aliases:
     - dissolved iron
     rank: 1000
@@ -12918,7 +12918,7 @@ attributes:
     title: dissolved organic carbon
     examples:
     - value: 197 micromole per liter
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     aliases:
     - dissolved organic carbon
     rank: 1000
@@ -12947,7 +12947,7 @@ attributes:
     title: dissolved organic nitrogen
     examples:
     - value: 0.05 micromole per liter
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     aliases:
     - dissolved organic nitrogen
     rank: 1000
@@ -12975,7 +12975,7 @@ attributes:
     title: dissolved oxygen
     examples:
     - value: 175 micromole per kilogram
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     aliases:
     - dissolved oxygen
     rank: 1000
@@ -13004,7 +13004,7 @@ attributes:
     title: dissolved oxygen in fluids
     examples:
     - value: ''
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     aliases:
     - dissolved oxygen in fluids
     rank: 1000
@@ -13027,7 +13027,7 @@ attributes:
     - For partial plates, fill by columns, like B1-G1,A2-H2,A3-D3 (NOT A2-A11,B1-B8).
     examples:
     - value: B2
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     rank: 11
     string_serialization: '{96 well plate pos}'
     alias: dna_cont_well
@@ -13051,7 +13051,7 @@ attributes:
     title: door type, composite
     examples:
     - value: revolving
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     aliases:
     - door type, composite
     rank: 1000
@@ -13076,7 +13076,7 @@ attributes:
     title: door condition
     examples:
     - value: new
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     aliases:
     - door condition
     rank: 1000
@@ -13101,7 +13101,7 @@ attributes:
     title: door direction of opening
     examples:
     - value: inward
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     aliases:
     - door direction of opening
     rank: 1000
@@ -13126,7 +13126,7 @@ attributes:
     title: door location
     examples:
     - value: north
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     aliases:
     - door location
     rank: 1000
@@ -13151,7 +13151,7 @@ attributes:
     title: door material
     examples:
     - value: wood
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     aliases:
     - door material
     rank: 1000
@@ -13176,7 +13176,7 @@ attributes:
     title: door movement
     examples:
     - value: swinging
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     aliases:
     - door movement
     rank: 1000
@@ -13204,7 +13204,7 @@ attributes:
     title: door area or size
     examples:
     - value: 2.5 square meter
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     aliases:
     - door area or size
     rank: 1000
@@ -13229,7 +13229,7 @@ attributes:
     title: door type
     examples:
     - value: wooden
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     aliases:
     - door type
     rank: 1000
@@ -13254,7 +13254,7 @@ attributes:
     title: door type, metal
     examples:
     - value: hollow
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     aliases:
     - door type, metal
     rank: 1000
@@ -13279,7 +13279,7 @@ attributes:
     title: door type, wood
     examples:
     - value: battened
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     aliases:
     - door type, wood
     rank: 1000
@@ -13304,7 +13304,7 @@ attributes:
     title: door signs of water/mold
     examples:
     - value: presence of mold visible
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     aliases:
     - door signs of water/mold
     rank: 1000
@@ -13335,7 +13335,7 @@ attributes:
     title: downward PAR
     examples:
     - value: 28.71 microEinstein per square meter per second
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     aliases:
     - downward PAR
     rank: 1000
@@ -13360,7 +13360,7 @@ attributes:
     title: drainage classification
     examples:
     - value: well
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     aliases:
     - drainage classification
     rank: 1000
@@ -13386,7 +13386,7 @@ attributes:
     title: drawings
     examples:
     - value: sketch
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     aliases:
     - drawings
     rank: 1000
@@ -13411,7 +13411,7 @@ attributes:
       are Environmental, Host-associated, and Engineered. They represent samples collected
       from a natural environment or from another organism or from engineered environments
       like bioreactors respectively.
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     see_also:
     - https://gold.jgi.doe.gov/help
     rank: 1000
@@ -13432,7 +13432,7 @@ attributes:
       Ecosystem categories for Host-associated samples can be individual hosts or
       phyla and for engineered samples it may be manipulated environments like bioreactors,
       solid waste etc.
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     see_also:
     - https://gold.jgi.doe.gov/help
     rank: 1000
@@ -13452,7 +13452,7 @@ attributes:
     - Ecosystem Type Marine (Environmental -&gt; Aquatic -&gt; Marine) is further divided
       (for example) into Intertidal zone, Coastal, Pelagic, Intertidal zone etc. in
       the Ecosystem subtype category.
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     see_also:
     - https://gold.jgi.doe.gov/help
     rank: 1000
@@ -13474,7 +13474,7 @@ attributes:
       or Thermal springs etc. Ecosystem category Air may have Indoor air or Outdoor
       air as different Ecosystem Types. In the case of Host-associated samples, ecosystem
       type can represent Respiratory system, Digestive system, Roots etc.
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     see_also:
     - https://gold.jgi.doe.gov/help
     rank: 1000
@@ -13501,7 +13501,7 @@ attributes:
     title: efficiency percent
     examples:
     - value: ''
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     aliases:
     - efficiency percent
     rank: 1000
@@ -13530,7 +13530,7 @@ attributes:
       if needed, to help estimate the elevation based on latitude and longitude coordinates.
     examples:
     - value: '100'
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     aliases:
     - elevation
     rank: 1000
@@ -13556,7 +13556,7 @@ attributes:
     title: elevator count
     examples:
     - value: '2'
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     aliases:
     - elevator count
     rank: 1000
@@ -13586,7 +13586,7 @@ attributes:
     title: emulsions
     examples:
     - value: ''
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     aliases:
     - emulsions
     rank: 1000
@@ -13624,7 +13624,7 @@ attributes:
     title: broad-scale environmental context
     examples:
     - value: oceanic epipelagic zone biome [ENVO:01000035]
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     aliases:
     - broad-scale environmental context
     rank: 1000
@@ -13664,7 +13664,7 @@ attributes:
     title: local environmental context
     examples:
     - value: litter layer [ENVO:01000338]
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     aliases:
     - local environmental context
     rank: 1000
@@ -13704,7 +13704,7 @@ attributes:
     title: environmental medium
     examples:
     - value: soil [ENVO:00001998]
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     aliases:
     - environmental medium
     rank: 1000
@@ -13727,7 +13727,7 @@ attributes:
       subtables and can be reported
     notes:
     - no longer in MIxS as of 6.0?
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     aliases:
     - environmental package
     rank: 1000
@@ -13739,7 +13739,7 @@ attributes:
   environment field:
     name: environment field
     description: field describing environmental aspect of a sample
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     rank: 1000
     abstract: true
     alias: environment_field
@@ -13760,7 +13760,7 @@ attributes:
     title: escalator count
     examples:
     - value: '4'
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     aliases:
     - escalator count
     rank: 1000
@@ -13788,7 +13788,7 @@ attributes:
     title: ethylbenzene
     examples:
     - value: ''
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     aliases:
     - ethylbenzene
     rank: 1000
@@ -13816,7 +13816,7 @@ attributes:
     title: exposed ductwork
     examples:
     - value: ''
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     aliases:
     - exposed ductwork
     rank: 1000
@@ -13841,7 +13841,7 @@ attributes:
     title: exposed pipes
     examples:
     - value: ''
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     aliases:
     - exposed pipes
     rank: 1000
@@ -13868,7 +13868,7 @@ attributes:
     title: experimental factor
     examples:
     - value: time series design [EFO:EFO_0001779]
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     aliases:
     - experimental factor
     rank: 1000
@@ -13894,7 +13894,7 @@ attributes:
     title: exterior door count
     examples:
     - value: ''
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     aliases:
     - exterior door count
     rank: 1000
@@ -13919,7 +13919,7 @@ attributes:
     title: orientations of exterior wall
     examples:
     - value: northwest
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     aliases:
     - orientations of exterior wall
     rank: 1000
@@ -13944,7 +13944,7 @@ attributes:
     title: orientations of exterior window
     examples:
     - value: southwest
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     aliases:
     - orientations of exterior window
     rank: 1000
@@ -13966,7 +13966,7 @@ attributes:
     title: history/extreme events
     examples:
     - value: 1980-05-18, volcanic eruption
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     aliases:
     - history/extreme events
     rank: 1000
@@ -13992,7 +13992,7 @@ attributes:
     title: soil_taxonomic/FAO classification
     examples:
     - value: Luvisols
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     aliases:
     - soil_taxonomic/FAO classification
     rank: 1000
@@ -14024,7 +14024,7 @@ attributes:
     title: fertilizer regimen
     examples:
     - value: urea;0.6 milligram per liter;R2/2018-05-11:T14:30/2018-05-11T19:30/P1H30M
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     aliases:
     - fertilizer regimen
     rank: 1000
@@ -14052,7 +14052,7 @@ attributes:
     title: field name
     examples:
     - value: ''
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     aliases:
     - field name
     rank: 1000
@@ -14078,7 +14078,7 @@ attributes:
     title: filter type
     examples:
     - value: HEPA
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     aliases:
     - filter type
     rank: 1000
@@ -14106,7 +14106,7 @@ attributes:
     examples:
     - value: '1871-10-10'
     - value: 1871-10-01 to 1871-10-31
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     aliases:
     - history/fire
     rank: 1000
@@ -14132,7 +14132,7 @@ attributes:
     title: fireplace type
     examples:
     - value: wood burning
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     aliases:
     - fireplace type
     rank: 1000
@@ -14162,7 +14162,7 @@ attributes:
     examples:
     - value: '1927-04-15'
     - value: 1927-04 to 1927-05
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     aliases:
     - history/flooding
     rank: 1000
@@ -14190,7 +14190,7 @@ attributes:
     title: floor age
     examples:
     - value: ''
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     aliases:
     - floor age
     rank: 1000
@@ -14218,7 +14218,7 @@ attributes:
     title: floor area
     examples:
     - value: ''
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     aliases:
     - floor area
     rank: 1000
@@ -14244,7 +14244,7 @@ attributes:
     title: floor condition
     examples:
     - value: new
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     aliases:
     - floor condition
     rank: 1000
@@ -14270,7 +14270,7 @@ attributes:
     title: floor count
     examples:
     - value: ''
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     aliases:
     - floor count
     rank: 1000
@@ -14295,7 +14295,7 @@ attributes:
     title: floor finish material
     examples:
     - value: carpet
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     aliases:
     - floor finish material
     rank: 1000
@@ -14321,7 +14321,7 @@ attributes:
     title: floor structure
     examples:
     - value: concrete
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     aliases:
     - floor structure
     rank: 1000
@@ -14349,7 +14349,7 @@ attributes:
     title: floor thermal mass
     examples:
     - value: ''
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     aliases:
     - floor thermal mass
     rank: 1000
@@ -14374,7 +14374,7 @@ attributes:
     title: floor signs of water/mold
     examples:
     - value: ceiling discoloration
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     aliases:
     - floor signs of water/mold
     rank: 1000
@@ -14402,7 +14402,7 @@ attributes:
     title: fluorescence
     examples:
     - value: 2.5 volts
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     aliases:
     - fluorescence
     rank: 1000
@@ -14428,7 +14428,7 @@ attributes:
     title: frequency of cleaning
     examples:
     - value: ''
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     aliases:
     - frequency of cleaning
     rank: 1000
@@ -14453,7 +14453,7 @@ attributes:
     title: frequency of cooking
     examples:
     - value: ''
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     aliases:
     - frequency of cooking
     rank: 1000
@@ -14484,7 +14484,7 @@ attributes:
     title: fungicide regimen
     examples:
     - value: bifonazole;1 mole per liter;R2/2018-05-11T14:30/2018-05-11T19:30/P1H30M
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     aliases:
     - fungicide regimen
     rank: 1000
@@ -14512,7 +14512,7 @@ attributes:
     title: furniture
     examples:
     - value: chair
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     aliases:
     - furniture
     rank: 1000
@@ -14549,7 +14549,7 @@ attributes:
     examples:
     - value: CO2; 500ppm above ambient; constant
     - value: nitric oxide;0.5 micromole per liter;R2/2018-05-11T14:30/2018-05-11T19:30/P1H30M
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     aliases:
     - gaseous environment
     rank: 1000
@@ -14581,7 +14581,7 @@ attributes:
     title: gaseous substances
     examples:
     - value: ''
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     aliases:
     - gaseous substances
     rank: 1000
@@ -14609,7 +14609,7 @@ attributes:
     title: gender of restroom
     examples:
     - value: male
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     aliases:
     - gender of restroom
     rank: 1000
@@ -14637,7 +14637,7 @@ attributes:
     title: genetic modification
     examples:
     - value: aox1A transgenic
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     aliases:
     - genetic modification
     rank: 1000
@@ -14664,7 +14664,7 @@ attributes:
     title: geographic location (country and/or sea,region)
     examples:
     - value: 'USA: Maryland, Bethesda'
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     aliases:
     - geographic location (country and/or sea,region)
     rank: 1000
@@ -14694,7 +14694,7 @@ attributes:
     title: glucosidase activity
     examples:
     - value: 5 mol per liter per hour
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     aliases:
     - glucosidase activity
     rank: 1000
@@ -14720,7 +14720,7 @@ attributes:
     title: gravidity
     examples:
     - value: yes;due date:2018-05-11
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     aliases:
     - gravidity
     rank: 1000
@@ -14753,7 +14753,7 @@ attributes:
     title: gravity
     examples:
     - value: 12 g;R2/2018-05-11T14:30/2018-05-11T19:30/P1H30M
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     aliases:
     - gravity
     rank: 1000
@@ -14783,7 +14783,7 @@ attributes:
     title: growth facility
     examples:
     - value: Growth chamber [CO_715:0000189]
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     aliases:
     - growth facility
     rank: 1000
@@ -14809,7 +14809,7 @@ attributes:
     title: growth habit
     examples:
     - value: spreading
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     aliases:
     - growth habit
     rank: 1000
@@ -14841,7 +14841,7 @@ attributes:
     title: growth hormone regimen
     examples:
     - value: abscisic acid;0.5 milligram per liter;R2/2018-05-11T14:30/2018-05-11T19:30/P1H30M
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     aliases:
     - growth hormone regimen
     rank: 1000
@@ -14869,7 +14869,7 @@ attributes:
     title: hallway/corridor count
     examples:
     - value: ''
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     aliases:
     - hallway/corridor count
     rank: 1000
@@ -14894,7 +14894,7 @@ attributes:
     title: handidness
     examples:
     - value: right handedness
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     aliases:
     - handidness
     rank: 1000
@@ -14920,7 +14920,7 @@ attributes:
     title: hydrocarbon type produced
     examples:
     - value: Gas
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     aliases:
     - hydrocarbon type produced
     rank: 1000
@@ -14951,7 +14951,7 @@ attributes:
     title: hydrocarbon resource type
     examples:
     - value: Oil Sand
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     aliases:
     - hydrocarbon resource type
     rank: 1000
@@ -14980,7 +14980,7 @@ attributes:
     title: formation water salinity
     examples:
     - value: ''
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     aliases:
     - formation water salinity
     rank: 1000
@@ -15006,7 +15006,7 @@ attributes:
     title: hydrocarbon resource geological age
     examples:
     - value: Silurian
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     aliases:
     - hydrocarbon resource geological age
     rank: 1000
@@ -15034,7 +15034,7 @@ attributes:
     title: hydrocarbon resource original pressure
     examples:
     - value: ''
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     aliases:
     - hydrocarbon resource original pressure
     rank: 1000
@@ -15063,7 +15063,7 @@ attributes:
     title: hydrocarbon resource original temperature
     examples:
     - value: 150-295 degree Celsius
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     aliases:
     - hydrocarbon resource original temperature
     rank: 1000
@@ -15089,7 +15089,7 @@ attributes:
     title: heating and cooling system type
     examples:
     - value: heat pump
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     aliases:
     - heating and cooling system type
     rank: 1000
@@ -15114,7 +15114,7 @@ attributes:
     title: heating delivery locations
     examples:
     - value: north
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     aliases:
     - heating delivery locations
     rank: 1000
@@ -15139,7 +15139,7 @@ attributes:
     title: heating system delivery method
     examples:
     - value: radiant
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     aliases:
     - heating system delivery method
     rank: 1000
@@ -15165,7 +15165,7 @@ attributes:
     title: heating system identifier
     examples:
     - value: ''
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     aliases:
     - heating system identifier
     rank: 1000
@@ -15202,7 +15202,7 @@ attributes:
     examples:
     - value: mercury 0.09 micrograms per gram
     - value: mercury 0.09 ug/g; chromium 0.03 ug/g
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     aliases:
     - extreme_unusual_properties/heavy metals
     rank: 1000
@@ -15235,7 +15235,7 @@ attributes:
     examples:
     - value: https://doi.org/10.3390/ijms9040434
     - value: mercury https://doi.org/10.1007/BF01056090; chromium https://doi.org/10.1007/s00216-006-0322-8
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     aliases:
     - extreme_unusual_properties/heavy metals method
     rank: 1000
@@ -15266,7 +15266,7 @@ attributes:
     title: height carpet fiber mat
     examples:
     - value: ''
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     aliases:
     - height carpet fiber mat
     rank: 1000
@@ -15298,7 +15298,7 @@ attributes:
     title: herbicide regimen
     examples:
     - value: atrazine;10 milligram per liter;R2/2018-05-11T14:30/2018-05-11T19:30/P1H30M
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     aliases:
     - herbicide regimen
     rank: 1000
@@ -15326,7 +15326,7 @@ attributes:
     title: soil horizon method
     examples:
     - value: ''
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     aliases:
     - soil horizon method
     rank: 1000
@@ -15356,7 +15356,7 @@ attributes:
     title: host age
     examples:
     - value: 10 days
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     aliases:
     - host age
     rank: 1000
@@ -15381,7 +15381,7 @@ attributes:
     title: host body habitat
     examples:
     - value: nasopharynx
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     aliases:
     - host body habitat
     rank: 1000
@@ -15410,7 +15410,7 @@ attributes:
     title: host body product
     examples:
     - value: mucus [UBERON:0000912]
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     aliases:
     - host body product
     rank: 1000
@@ -15439,7 +15439,7 @@ attributes:
     title: host body site
     examples:
     - value: gill [UBERON:0002535]
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     aliases:
     - host body site
     rank: 1000
@@ -15468,7 +15468,7 @@ attributes:
     title: host body temperature
     examples:
     - value: 15 degree Celsius
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     aliases:
     - host body temperature
     rank: 1000
@@ -15493,7 +15493,7 @@ attributes:
     title: host color
     examples:
     - value: ''
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     aliases:
     - host color
     rank: 1000
@@ -15519,7 +15519,7 @@ attributes:
     title: host common name
     examples:
     - value: human
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     aliases:
     - host common name
     rank: 1000
@@ -15546,7 +15546,7 @@ attributes:
     title: host diet
     examples:
     - value: herbivore
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     aliases:
     - host diet
     rank: 1000
@@ -15577,7 +15577,7 @@ attributes:
     title: host dry mass
     examples:
     - value: 500 gram
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     aliases:
     - host dry mass
     rank: 1000
@@ -15603,7 +15603,7 @@ attributes:
     title: host family relationship
     examples:
     - value: offspring;Mussel25
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     aliases:
     - host family relationship
     rank: 1000
@@ -15629,7 +15629,7 @@ attributes:
     title: host genotype
     examples:
     - value: C57BL/6
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     aliases:
     - host genotype
     rank: 1000
@@ -15655,7 +15655,7 @@ attributes:
     title: host growth conditions
     examples:
     - value: https://academic.oup.com/icesjms/article/68/2/349/617247
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     aliases:
     - host growth conditions
     rank: 1000
@@ -15684,7 +15684,7 @@ attributes:
     title: host height
     examples:
     - value: 0.1 meter
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     aliases:
     - host height
     rank: 1000
@@ -15710,7 +15710,7 @@ attributes:
     title: host last meal
     examples:
     - value: corn feed;P2H
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     aliases:
     - host last meal
     rank: 1000
@@ -15741,7 +15741,7 @@ attributes:
     title: host length
     examples:
     - value: 1 meter
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     aliases:
     - host length
     rank: 1000
@@ -15766,7 +15766,7 @@ attributes:
     title: host life stage
     examples:
     - value: adult
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     aliases:
     - host life stage
     rank: 1000
@@ -15794,7 +15794,7 @@ attributes:
     title: host phenotype
     examples:
     - value: elongated [PATO:0001154]
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     aliases:
     - host phenotype
     rank: 1000
@@ -15820,7 +15820,7 @@ attributes:
     title: host sex
     examples:
     - value: non-binary
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     aliases:
     - host sex
     rank: 1000
@@ -15845,7 +15845,7 @@ attributes:
     title: host shape
     examples:
     - value: round
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     aliases:
     - host shape
     rank: 1000
@@ -15871,7 +15871,7 @@ attributes:
     title: host subject id
     examples:
     - value: MPI123
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     aliases:
     - host subject id
     rank: 1000
@@ -15902,7 +15902,7 @@ attributes:
     title: host subspecific genetic lineage
     examples:
     - value: 'serovar:Newport, variety:glabrum, cultivar: Red Delicious'
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     aliases:
     - host subspecific genetic lineage
     rank: 1000
@@ -15928,7 +15928,7 @@ attributes:
     title: host substrate
     examples:
     - value: rock
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     aliases:
     - host substrate
     rank: 1000
@@ -15955,7 +15955,7 @@ attributes:
     title: observed host symbionts
     examples:
     - value: flukeworms
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     aliases:
     - observed host symbionts
     rank: 1000
@@ -15984,7 +15984,7 @@ attributes:
     title: host total mass
     examples:
     - value: 2500 gram
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     aliases:
     - host total mass
     rank: 1000
@@ -16012,7 +16012,7 @@ attributes:
     title: host wet mass
     examples:
     - value: 1500 gram
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     aliases:
     - host wet mass
     rank: 1000
@@ -16040,7 +16040,7 @@ attributes:
     title: humidity
     examples:
     - value: 25 gram per cubic meter
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     aliases:
     - humidity
     rank: 1000
@@ -16072,7 +16072,7 @@ attributes:
     title: humidity regimen
     examples:
     - value: 25 gram per cubic meter;R2/2018-05-11T14:30/2018-05-11T19:30/P1H30M
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     aliases:
     - humidity regimen
     rank: 1000
@@ -16101,7 +16101,7 @@ attributes:
     title: indoor space
     examples:
     - value: foyer
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     aliases:
     - indoor space
     rank: 1000
@@ -16126,7 +16126,7 @@ attributes:
     title: indoor surface
     examples:
     - value: wall
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     aliases:
     - indoor surface
     rank: 1000
@@ -16155,7 +16155,7 @@ attributes:
     title: industrial effluent percent
     examples:
     - value: ''
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     aliases:
     - industrial effluent percent
     rank: 1000
@@ -16184,7 +16184,7 @@ attributes:
     title: inorganic particles
     examples:
     - value: ''
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     aliases:
     - inorganic particles
     rank: 1000
@@ -16215,7 +16215,7 @@ attributes:
     title: inside lux light
     examples:
     - value: ''
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     aliases:
     - inside lux light
     rank: 1000
@@ -16241,7 +16241,7 @@ attributes:
     title: interior wall condition
     examples:
     - value: damaged
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     aliases:
     - interior wall condition
     rank: 1000
@@ -16257,7 +16257,7 @@ attributes:
     name: investigation field
     description: field describing aspect of the investigation/study to which the sample
       belongs
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     rank: 1000
     abstract: true
     alias: investigation_field
@@ -16279,7 +16279,7 @@ attributes:
     title: injection water breakthrough date of specific well
     examples:
     - value: '2018-05-11'
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     aliases:
     - injection water breakthrough date of specific well
     rank: 1000
@@ -16308,7 +16308,7 @@ attributes:
     title: injection water fraction
     examples:
     - value: ''
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     aliases:
     - injection water fraction
     rank: 1000
@@ -16333,7 +16333,7 @@ attributes:
     title: last time swept/mopped/vacuumed
     examples:
     - value: 2018-05-11:T14:30Z
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     aliases:
     - last time swept/mopped/vacuumed
     rank: 1000
@@ -16359,7 +16359,7 @@ attributes:
       for human hosts
     examples:
     - value: 50.586825 6.408977
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     aliases:
     - geographic location (latitude and longitude)
     rank: 1000
@@ -16392,7 +16392,7 @@ attributes:
       one pH unit
     examples:
     - value: 543 mg/kg
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     see_also:
     - https://www.ornl.gov/content/bio-scales-0
     - https://secure.caes.uga.edu/extension/publications/files/pdf/C%20874_5.PDF
@@ -16425,7 +16425,7 @@ attributes:
       one pH unit
     examples:
     - value: 1575 mg/kg
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     see_also:
     - https://www.ornl.gov/content/bio-scales-0
     aliases:
@@ -16453,7 +16453,7 @@ attributes:
     title: light intensity
     examples:
     - value: 0.3 lux
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     aliases:
     - light intensity
     rank: 1000
@@ -16482,7 +16482,7 @@ attributes:
     title: light regimen
     examples:
     - value: incandescant light;10 lux;450 nanometer
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     aliases:
     - light regimen
     rank: 1000
@@ -16511,7 +16511,7 @@ attributes:
     title: light type
     examples:
     - value: desk lamp
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     aliases:
     - light type
     rank: 1000
@@ -16536,7 +16536,7 @@ attributes:
     title: links to additional analysis
     examples:
     - value: ''
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     aliases:
     - links to additional analysis
     rank: 1000
@@ -16562,7 +16562,7 @@ attributes:
     title: link to classification information
     examples:
     - value: ''
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     aliases:
     - link to classification information
     rank: 1000
@@ -16588,7 +16588,7 @@ attributes:
     title: link to climate information
     examples:
     - value: ''
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     aliases:
     - link to climate information
     rank: 1000
@@ -16615,7 +16615,7 @@ attributes:
     title: lithology
     examples:
     - value: Volcanic
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     aliases:
     - lithology
     rank: 1000
@@ -16640,7 +16640,7 @@ attributes:
     title: soil_taxonomic/local classification
     examples:
     - value: ''
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     aliases:
     - soil_taxonomic/local classification
     rank: 1000
@@ -16667,7 +16667,7 @@ attributes:
     title: soil_taxonomic/local classification method
     examples:
     - value: ''
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     aliases:
     - soil_taxonomic/local classification method
     rank: 1000
@@ -16697,7 +16697,7 @@ attributes:
     title: magnesium
     examples:
     - value: 52.8 micromole per kilogram
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     aliases:
     - magnesium
     rank: 1000
@@ -16725,7 +16725,7 @@ attributes:
     title: manganese
     examples:
     - value: 24.7 mg/kg
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     see_also:
     - https://www.ornl.gov/content/bio-scales-0
     aliases:
@@ -16749,7 +16749,7 @@ attributes:
     title: maximum occupancy
     examples:
     - value: ''
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     aliases:
     - maximum occupancy
     rank: 1000
@@ -16777,7 +16777,7 @@ attributes:
     title: mean friction velocity
     examples:
     - value: 0.5 meter per second
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     aliases:
     - mean friction velocity
     rank: 1000
@@ -16805,7 +16805,7 @@ attributes:
     title: mean peak friction velocity
     examples:
     - value: 1 meter per second
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     aliases:
     - mean peak friction velocity
     rank: 1000
@@ -16830,7 +16830,7 @@ attributes:
     title: mechanical structure
     examples:
     - value: elevator
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     aliases:
     - mechanical structure
     rank: 1000
@@ -16856,7 +16856,7 @@ attributes:
     title: mechanical damage
     examples:
     - value: pruning;bark
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     aliases:
     - mechanical damage
     rank: 1000
@@ -16887,7 +16887,7 @@ attributes:
     title: methane
     examples:
     - value: 1800 parts per billion
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     aliases:
     - methane
     rank: 1000
@@ -16912,7 +16912,7 @@ attributes:
     title: microbial biomass method
     examples:
     - value: ''
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     aliases:
     - microbial biomass method
     rank: 1000
@@ -16943,7 +16943,7 @@ attributes:
     title: microbial biomass
     examples:
     - value: ''
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     aliases:
     - microbial biomass
     rank: 1000
@@ -16976,7 +16976,7 @@ attributes:
     title: mineral nutrient regimen
     examples:
     - value: potassium;15 gram;R2/2018-05-11T14:30/2018-05-11T19:30/P1H30M
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     aliases:
     - mineral nutrient regimen
     rank: 1000
@@ -17005,7 +17005,7 @@ attributes:
     title: miscellaneous parameter
     examples:
     - value: Bicarbonate ion concentration;2075 micromole per kilogram
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     aliases:
     - miscellaneous parameter
     rank: 1000
@@ -17036,7 +17036,7 @@ attributes:
     title: n-alkanes
     examples:
     - value: n-hexadecane;100 milligram per liter
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     aliases:
     - n-alkanes
     rank: 1000
@@ -17067,7 +17067,7 @@ attributes:
     title: nitrate
     examples:
     - value: 65 micromole per liter
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     aliases:
     - nitrate
     rank: 1000
@@ -17097,7 +17097,7 @@ attributes:
     - often below some specified limit of detection
     examples:
     - value: 0.29 mg/kg
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     see_also:
     - https://www.ornl.gov/content/bio-scales-0
     aliases:
@@ -17125,7 +17125,7 @@ attributes:
     title: nitrite
     examples:
     - value: 0.5 micromole per liter
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     aliases:
     - nitrite
     rank: 1000
@@ -17153,7 +17153,7 @@ attributes:
     title: nitrite_nitrogen
     examples:
     - value: 1.2 mg/kg
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     see_also:
     - https://www.ornl.gov/content/bio-scales-0
     aliases:
@@ -17181,7 +17181,7 @@ attributes:
     title: nitrogen
     examples:
     - value: 4.2 micromole per liter
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     aliases:
     - nitrogen
     rank: 1000
@@ -17214,7 +17214,7 @@ attributes:
     title: non-mineral nutrient regimen
     examples:
     - value: carbon dioxide;10 mole per liter;R2/2018-05-11T14:30/2018-05-11T19:30/P1H30M
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     aliases:
     - non-mineral nutrient regimen
     rank: 1000
@@ -17229,7 +17229,7 @@ attributes:
     multivalued: true
   nucleic acid sequence source field:
     name: nucleic acid sequence source field
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     rank: 1000
     abstract: true
     alias: nucleic_acid_sequence_source_field
@@ -17250,7 +17250,7 @@ attributes:
     title: number of pets
     examples:
     - value: ''
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     aliases:
     - number of pets
     rank: 1000
@@ -17275,7 +17275,7 @@ attributes:
     title: number of houseplants
     examples:
     - value: ''
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     aliases:
     - number of houseplants
     rank: 1000
@@ -17300,7 +17300,7 @@ attributes:
     title: number of residents
     examples:
     - value: ''
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     aliases:
     - number of residents
     rank: 1000
@@ -17325,7 +17325,7 @@ attributes:
     title: occupant density at sampling
     examples:
     - value: ''
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     aliases:
     - occupant density at sampling
     rank: 1000
@@ -17350,7 +17350,7 @@ attributes:
     title: occupancy documentation
     examples:
     - value: estimate
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     aliases:
     - occupancy documentation
     rank: 1000
@@ -17375,7 +17375,7 @@ attributes:
     title: occupancy at sampling
     examples:
     - value: '10'
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     aliases:
     - occupancy at sampling
     rank: 1000
@@ -17403,7 +17403,7 @@ attributes:
     title: organic carbon
     examples:
     - value: 1.5 microgram per liter
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     aliases:
     - organic carbon
     rank: 1000
@@ -17437,7 +17437,7 @@ attributes:
     title: organism count qPCR information
     examples:
     - value: ''
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     aliases:
     - organism count qPCR information
     rank: 1000
@@ -17467,7 +17467,7 @@ attributes:
     title: organic matter
     examples:
     - value: 1.75 milligram per cubic meter
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     aliases:
     - organic matter
     rank: 1000
@@ -17495,7 +17495,7 @@ attributes:
     title: organic nitrogen
     examples:
     - value: 4 micromole per liter
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     aliases:
     - organic nitrogen
     rank: 1000
@@ -17524,7 +17524,7 @@ attributes:
     title: organic particles
     examples:
     - value: ''
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     aliases:
     - organic particles
     rank: 1000
@@ -17559,7 +17559,7 @@ attributes:
     title: organism count
     examples:
     - value: total prokaryotes;3.5e7 cells per milliliter;qPCR
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     aliases:
     - organism count
     rank: 1000
@@ -17589,7 +17589,7 @@ attributes:
     title: oil water contact depth
     examples:
     - value: ''
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     aliases:
     - oil water contact depth
     rank: 1000
@@ -17614,7 +17614,7 @@ attributes:
     title: oxygenation status of sample
     examples:
     - value: aerobic
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     aliases:
     - oxygenation status of sample
     rank: 1000
@@ -17642,7 +17642,7 @@ attributes:
     title: oxygen
     examples:
     - value: 600 parts per million
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     aliases:
     - oxygen
     rank: 1000
@@ -17670,7 +17670,7 @@ attributes:
     title: particulate organic carbon
     examples:
     - value: 1.92 micromole per liter
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     aliases:
     - particulate organic carbon
     rank: 1000
@@ -17698,7 +17698,7 @@ attributes:
     title: particulate organic nitrogen
     examples:
     - value: 0.3 micromole per liter
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     aliases:
     - particulate organic nitrogen
     rank: 1000
@@ -17728,7 +17728,7 @@ attributes:
     title: particle classification
     examples:
     - value: ''
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     aliases:
     - particle classification
     rank: 1000
@@ -17760,7 +17760,7 @@ attributes:
     title: permeability
     examples:
     - value: ''
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     aliases:
     - permeability
     rank: 1000
@@ -17789,7 +17789,7 @@ attributes:
     title: perturbation
     examples:
     - value: antibiotic addition;R2/2018-05-11T14:30Z/2018-05-11T19:30Z/P1H30M
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     aliases:
     - perturbation
     rank: 1000
@@ -17824,7 +17824,7 @@ attributes:
     title: pesticide regimen
     examples:
     - value: pyrethrum;0.6 milligram per liter;R2/2018-05-11T14:30/2018-05-11T19:30/P1H30M
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     aliases:
     - pesticide regimen
     rank: 1000
@@ -17855,7 +17855,7 @@ attributes:
     title: petroleum hydrocarbon
     examples:
     - value: 0.05 micromole per liter
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     aliases:
     - petroleum hydrocarbon
     rank: 1000
@@ -17881,7 +17881,7 @@ attributes:
     title: pH
     examples:
     - value: '7.2'
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     aliases:
     - pH
     rank: 1000
@@ -17909,7 +17909,7 @@ attributes:
     examples:
     - value: https://www.southernlabware.com/pc9500-benchtop-ph-conductivity-meter-kit-ph-accuracy-2000mv-ph-range-2-000-to-20-000.html?gclid=Cj0KCQiAwJWdBhCYARIsAJc4idCO5vtvbVMf545fcvdROFqa6zjzNSoywNx6K4k9Coo9cCc2pybtvGsaAiR0EALw_wcB
     - value: https://doi.org/10.2136/sssabookser5.3.c16
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     aliases:
     - pH method
     rank: 1000
@@ -17938,7 +17938,7 @@ attributes:
     title: pH regimen
     examples:
     - value: 7.6;R2/2018-05-11:T14:30/2018-05-11T19:30/P1H30M
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     aliases:
     - pH regimen
     rank: 1000
@@ -17969,7 +17969,7 @@ attributes:
     title: phaeopigments
     examples:
     - value: 2.5 milligram per cubic meter
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     aliases:
     - phaeopigments
     rank: 1000
@@ -18000,7 +18000,7 @@ attributes:
     title: phosphate
     examples:
     - value: 0.7 micromole per liter
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     aliases:
     - phosphate
     rank: 1000
@@ -18028,7 +18028,7 @@ attributes:
     title: phospholipid fatty acid
     examples:
     - value: 2.98 milligram per liter
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     aliases:
     - phospholipid fatty acid
     rank: 1000
@@ -18059,7 +18059,7 @@ attributes:
     title: photon flux
     examples:
     - value: 3.926 micromole photons per second per square meter
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     aliases:
     - photon flux
     rank: 1000
@@ -18088,7 +18088,7 @@ attributes:
     title: plant growth medium
     examples:
     - value: hydroponic plant culture media [EO:0007067]
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     aliases:
     - plant growth medium
     rank: 1000
@@ -18113,7 +18113,7 @@ attributes:
     title: plant product
     examples:
     - value: xylem sap [PO:0025539]
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     aliases:
     - plant product
     rank: 1000
@@ -18140,7 +18140,7 @@ attributes:
     title: plant sex
     examples:
     - value: Hermaphroditic
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     aliases:
     - plant sex
     rank: 1000
@@ -18168,7 +18168,7 @@ attributes:
     title: plant structure
     examples:
     - value: epidermis [PO:0005679]
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     aliases:
     - plant structure
     rank: 1000
@@ -18199,7 +18199,7 @@ attributes:
     title: pollutants
     examples:
     - value: lead;0.15 microgram per cubic meter
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     aliases:
     - pollutants
     rank: 1000
@@ -18231,7 +18231,7 @@ attributes:
     title: porosity
     examples:
     - value: ''
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     aliases:
     - porosity
     rank: 1000
@@ -18260,7 +18260,7 @@ attributes:
     title: potassium
     examples:
     - value: 463 milligram per liter
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     aliases:
     - potassium
     rank: 1000
@@ -18291,7 +18291,7 @@ attributes:
     title: pour point
     examples:
     - value: ''
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     aliases:
     - pour point
     rank: 1000
@@ -18317,7 +18317,7 @@ attributes:
     title: pre-treatment
     examples:
     - value: ''
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     aliases:
     - pre-treatment
     rank: 1000
@@ -18344,7 +18344,7 @@ attributes:
     title: presence of pets, animals, or insects
     examples:
     - value: cat;5
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     aliases:
     - presence of pets, animals, or insects
     rank: 1000
@@ -18373,7 +18373,7 @@ attributes:
     title: pressure
     examples:
     - value: 50 atmosphere
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     aliases:
     - pressure
     rank: 1000
@@ -18398,7 +18398,7 @@ attributes:
     title: history/previous land use method
     examples:
     - value: ''
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     aliases:
     - history/previous land use method
     rank: 1000
@@ -18424,7 +18424,7 @@ attributes:
     title: history/previous land use
     examples:
     - value: ''
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     aliases:
     - history/previous land use
     rank: 1000
@@ -18454,7 +18454,7 @@ attributes:
     title: primary production
     examples:
     - value: 100 milligram per cubic meter per day
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     aliases:
     - primary production
     rank: 1000
@@ -18481,7 +18481,7 @@ attributes:
     title: primary treatment
     examples:
     - value: ''
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     aliases:
     - primary treatment
     rank: 1000
@@ -18510,7 +18510,7 @@ attributes:
     title: production rate
     examples:
     - value: ''
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     aliases:
     - production rate
     rank: 1000
@@ -18535,7 +18535,7 @@ attributes:
     title: production start date
     examples:
     - value: '2018-05-11'
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     aliases:
     - production start date
     rank: 1000
@@ -18561,7 +18561,7 @@ attributes:
     title: profile position
     examples:
     - value: summit
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     aliases:
     - profile position
     rank: 1000
@@ -18586,7 +18586,7 @@ attributes:
     title: quadrant position
     examples:
     - value: West side
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     aliases:
     - quadrant position
     rank: 1000
@@ -18618,7 +18618,7 @@ attributes:
     title: radiation regimen
     examples:
     - value: gamma radiation;60 gray;R2/2018-05-11T14:30/2018-05-11T19:30/P1H30M
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     aliases:
     - radiation regimen
     rank: 1000
@@ -18652,7 +18652,7 @@ attributes:
     title: rainfall regimen
     examples:
     - value: 15 millimeter;R2/2018-05-11T14:30/2018-05-11T19:30/P1H30M
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     aliases:
     - rainfall regimen
     rank: 1000
@@ -18682,7 +18682,7 @@ attributes:
     title: reactor type
     examples:
     - value: ''
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     aliases:
     - reactor type
     rank: 1000
@@ -18712,7 +18712,7 @@ attributes:
     title: redox potential
     examples:
     - value: 300 millivolt
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     aliases:
     - redox potential
     rank: 1000
@@ -18741,7 +18741,7 @@ attributes:
     title: relative air humidity
     examples:
     - value: 80%
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     aliases:
     - relative air humidity
     rank: 1000
@@ -18769,7 +18769,7 @@ attributes:
     title: outside relative humidity
     examples:
     - value: 12 per kilogram of air
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     aliases:
     - outside relative humidity
     rank: 1000
@@ -18794,7 +18794,7 @@ attributes:
     title: relative sampling location
     examples:
     - value: center of car
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     aliases:
     - relative sampling location
     rank: 1000
@@ -18819,7 +18819,7 @@ attributes:
     title: reservoir name
     examples:
     - value: ''
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     aliases:
     - reservoir name
     rank: 1000
@@ -18852,7 +18852,7 @@ attributes:
     title: resins wt%
     examples:
     - value: ''
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     aliases:
     - resins wt%
     rank: 1000
@@ -18881,7 +18881,7 @@ attributes:
     title: room air exchange rate
     examples:
     - value: ''
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     aliases:
     - room air exchange rate
     rank: 1000
@@ -18907,7 +18907,7 @@ attributes:
     title: room architectural elements
     examples:
     - value: ''
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     aliases:
     - room architectural elements
     rank: 1000
@@ -18933,7 +18933,7 @@ attributes:
     title: room condition
     examples:
     - value: new
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     aliases:
     - room condition
     rank: 1000
@@ -18958,7 +18958,7 @@ attributes:
     title: rooms connected by a doorway
     examples:
     - value: office
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     aliases:
     - rooms connected by a doorway
     rank: 1000
@@ -18984,7 +18984,7 @@ attributes:
     title: room count
     examples:
     - value: ''
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     aliases:
     - room count
     rank: 1000
@@ -19012,7 +19012,7 @@ attributes:
     title: room dimensions
     examples:
     - value: ''
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     aliases:
     - room dimensions
     rank: 1000
@@ -19042,7 +19042,7 @@ attributes:
     title: room door distance
     examples:
     - value: ''
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     aliases:
     - room door distance
     rank: 1000
@@ -19069,7 +19069,7 @@ attributes:
     title: rooms that share a door with sampling room
     examples:
     - value: ''
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     aliases:
     - rooms that share a door with sampling room
     rank: 1000
@@ -19096,7 +19096,7 @@ attributes:
     title: rooms that are on the same hallway
     examples:
     - value: ''
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     aliases:
     - rooms that are on the same hallway
     rank: 1000
@@ -19122,7 +19122,7 @@ attributes:
     title: room location in building
     examples:
     - value: interior room
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     aliases:
     - room location in building
     rank: 1000
@@ -19148,7 +19148,7 @@ attributes:
     title: room moisture damage or mold history
     examples:
     - value: ''
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     aliases:
     - room moisture damage or mold history
     rank: 1000
@@ -19176,7 +19176,7 @@ attributes:
     title: room net area
     examples:
     - value: ''
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     aliases:
     - room net area
     rank: 1000
@@ -19202,7 +19202,7 @@ attributes:
     title: room occupancy
     examples:
     - value: ''
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     aliases:
     - room occupancy
     rank: 1000
@@ -19228,7 +19228,7 @@ attributes:
     title: room sampling position
     examples:
     - value: south corner
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     aliases:
     - room sampling position
     rank: 1000
@@ -19254,7 +19254,7 @@ attributes:
     title: room type
     examples:
     - value: bathroom
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     aliases:
     - room type
     rank: 1000
@@ -19282,7 +19282,7 @@ attributes:
     title: room volume
     examples:
     - value: ''
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     aliases:
     - room volume
     rank: 1000
@@ -19309,7 +19309,7 @@ attributes:
     title: rooms that share a wall with sampling room
     examples:
     - value: ''
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     aliases:
     - rooms that share a wall with sampling room
     rank: 1000
@@ -19335,7 +19335,7 @@ attributes:
     title: room window count
     examples:
     - value: ''
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     aliases:
     - room window count
     rank: 1000
@@ -19361,7 +19361,7 @@ attributes:
     title: rooting conditions
     examples:
     - value: http://himedialabs.com/TD/PT158.pdf
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     aliases:
     - rooting conditions
     rank: 1000
@@ -19390,7 +19390,7 @@ attributes:
     title: rooting medium carbon
     examples:
     - value: sucrose
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     aliases:
     - rooting medium carbon
     rank: 1000
@@ -19420,7 +19420,7 @@ attributes:
     title: rooting medium macronutrients
     examples:
     - value: KH2PO4;170¬†milligram per liter
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     aliases:
     - rooting medium macronutrients
     rank: 1000
@@ -19450,7 +19450,7 @@ attributes:
     title: rooting medium micronutrients
     examples:
     - value: H3BO3;6.2¬†milligram per liter
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     aliases:
     - rooting medium micronutrients
     rank: 1000
@@ -19476,7 +19476,7 @@ attributes:
     title: rooting medium pH
     examples:
     - value: '7.5'
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     aliases:
     - rooting medium pH
     rank: 1000
@@ -19505,7 +19505,7 @@ attributes:
     title: rooting medium regulators
     examples:
     - value: abscisic acid;0.75 milligram per liter
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     aliases:
     - rooting medium regulators
     rank: 1000
@@ -19532,7 +19532,7 @@ attributes:
     title: rooting medium solidifier
     examples:
     - value: agar
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     aliases:
     - rooting medium solidifier
     rank: 1000
@@ -19563,7 +19563,7 @@ attributes:
     title: rooting medium organic supplements
     examples:
     - value: nicotinic acid;0.5 milligram per liter
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     aliases:
     - rooting medium organic supplements
     rank: 1000
@@ -19597,7 +19597,7 @@ attributes:
     title: salinity
     examples:
     - value: 25 practical salinity unit
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     aliases:
     - salinity
     rank: 1000
@@ -19622,7 +19622,7 @@ attributes:
     title: salinity method
     examples:
     - value: https://doi.org/10.1007/978-1-61779-986-0_28
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     aliases:
     - salinity method
     rank: 1000
@@ -19655,7 +19655,7 @@ attributes:
     title: salt regimen
     examples:
     - value: NaCl;5 gram per liter;R2/2018-05-11T14:30/2018-05-11T19:30/P1H30M
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     aliases:
     - salt regimen
     rank: 1000
@@ -19683,7 +19683,7 @@ attributes:
     title: sample capture status
     examples:
     - value: farm sample
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     aliases:
     - sample capture status
     rank: 1000
@@ -19707,7 +19707,7 @@ attributes:
     title: sample collection device
     examples:
     - value: swab, biopsy, niskin bottle, push core, drag swab [GENEPIO:0002713]
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     aliases:
     - sample collection device
     rank: 1000
@@ -19730,7 +19730,7 @@ attributes:
     title: sample collection method
     examples:
     - value: swabbing
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     aliases:
     - sample collection method
     rank: 1000
@@ -19758,7 +19758,7 @@ attributes:
     title: sample collection point
     examples:
     - value: well
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     aliases:
     - sample collection point
     rank: 1000
@@ -19784,7 +19784,7 @@ attributes:
     title: sample disease stage
     examples:
     - value: infection
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     aliases:
     - sample disease stage
     rank: 1000
@@ -19809,7 +19809,7 @@ attributes:
     title: sampling floor
     examples:
     - value: 4th floor
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     aliases:
     - sampling floor
     rank: 1000
@@ -19843,7 +19843,7 @@ attributes:
     title: corrosion rate at sample location
     examples:
     - value: ''
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     aliases:
     - corrosion rate at sample location
     rank: 1000
@@ -19868,7 +19868,7 @@ attributes:
     title: sample material processing
     examples:
     - value: filtering of seawater, storing samples in ethanol
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     aliases:
     - sample material processing
     rank: 1000
@@ -19902,7 +19902,7 @@ attributes:
     title: sample measured depth
     examples:
     - value: 1534 meter;MSL
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     aliases:
     - sample measured depth
     rank: 1000
@@ -19931,7 +19931,7 @@ attributes:
     title: preservative added to sample
     examples:
     - value: ''
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     aliases:
     - preservative added to sample
     rank: 1000
@@ -19958,7 +19958,7 @@ attributes:
     title: sampling room ID or name
     examples:
     - value: ''
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     aliases:
     - sampling room ID or name
     rank: 1000
@@ -19984,7 +19984,7 @@ attributes:
     title: amount or size of sample collected
     examples:
     - value: 5 liter
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     aliases:
     - amount or size of sample collected
     rank: 1000
@@ -20012,7 +20012,7 @@ attributes:
     title: sample size sorting method
     examples:
     - value: ''
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     aliases:
     - sample size sorting method
     rank: 1000
@@ -20040,7 +20040,7 @@ attributes:
     title: sample storage duration
     examples:
     - value: P1Y6M
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     aliases:
     - sample storage duration
     rank: 1000
@@ -20066,7 +20066,7 @@ attributes:
     title: sample storage location
     examples:
     - value: Freezer no:5
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     aliases:
     - sample storage location
     rank: 1000
@@ -20095,7 +20095,7 @@ attributes:
     title: sample storage temperature
     examples:
     - value: -80 degree Celsius
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     aliases:
     - sample storage temperature
     rank: 1000
@@ -20122,7 +20122,7 @@ attributes:
     title: sample subtype
     examples:
     - value: biofilm
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     aliases:
     - sample subtype
     rank: 1000
@@ -20146,7 +20146,7 @@ attributes:
     title: Taxonomy ID of DNA sample
     comments:
     - coal metagenome [NCBITaxon:1260732] would be a reasonable has_raw_value
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     aliases:
     - Taxonomy ID of DNA sample
     rank: 1000
@@ -20174,7 +20174,7 @@ attributes:
     title: sampling time outside
     examples:
     - value: ''
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     aliases:
     - sampling time outside
     rank: 1000
@@ -20203,7 +20203,7 @@ attributes:
     title: sample transport conditions
     examples:
     - value: 5 days;-20 degree Celsius
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     aliases:
     - sample transport conditions
     rank: 1000
@@ -20234,7 +20234,7 @@ attributes:
     title: sample true vertical depth subsea
     examples:
     - value: ''
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     aliases:
     - sample true vertical depth subsea
     rank: 1000
@@ -20265,7 +20265,7 @@ attributes:
     title: sample type
     examples:
     - value: built environment sample [GENEPIO:0001248]
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     aliases:
     - sample type
     rank: 1000
@@ -20291,7 +20291,7 @@ attributes:
     title: sampling day weather
     examples:
     - value: foggy
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     aliases:
     - sampling day weather
     rank: 1000
@@ -20316,7 +20316,7 @@ attributes:
     title: sample well name
     examples:
     - value: ''
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     aliases:
     - sample well name
     rank: 1000
@@ -20349,7 +20349,7 @@ attributes:
     title: saturates wt%
     examples:
     - value: ''
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     aliases:
     - saturates wt%
     rank: 1000
@@ -20377,7 +20377,7 @@ attributes:
     title: season
     examples:
     - value: autumn [NCIT:C94733]
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     aliases:
     - season
     rank: 1000
@@ -20406,7 +20406,7 @@ attributes:
     title: seasonal environment
     examples:
     - value: rainy;R2/2018-05-11T14:30/2018-05-11T19:30/P1H30M
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     aliases:
     - seasonal environment
     rank: 1000
@@ -20447,7 +20447,7 @@ attributes:
     examples:
     - value: 0.4 inch
     - value: 10.16 mm
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     aliases:
     - mean seasonal precipitation
     rank: 1000
@@ -20475,7 +20475,7 @@ attributes:
     title: mean seasonal temperature
     examples:
     - value: 18 degree Celsius
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     aliases:
     - mean seasonal temperature
     rank: 1000
@@ -20500,7 +20500,7 @@ attributes:
     title: seasonal use
     examples:
     - value: Winter
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     aliases:
     - seasonal use
     rank: 1000
@@ -20526,7 +20526,7 @@ attributes:
     title: secondary treatment
     examples:
     - value: ''
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     aliases:
     - secondary treatment
     rank: 1000
@@ -20552,7 +20552,7 @@ attributes:
     title: sediment type
     examples:
     - value: biogenous
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     aliases:
     - sediment type
     rank: 1000
@@ -20566,7 +20566,7 @@ attributes:
     multivalued: false
   sequencing field:
     name: sequencing field
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     rank: 1000
     abstract: true
     alias: sequencing_field
@@ -20587,7 +20587,7 @@ attributes:
     title: sewage type
     examples:
     - value: ''
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     aliases:
     - sewage type
     rank: 1000
@@ -20613,7 +20613,7 @@ attributes:
     title: shading device signs of water/mold
     examples:
     - value: no presence of mold visible
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     aliases:
     - shading device signs of water/mold
     rank: 1000
@@ -20639,7 +20639,7 @@ attributes:
     title: shading device condition
     examples:
     - value: new
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     aliases:
     - shading device condition
     rank: 1000
@@ -20664,7 +20664,7 @@ attributes:
     title: shading device location
     examples:
     - value: exterior
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     aliases:
     - shading device location
     rank: 1000
@@ -20690,7 +20690,7 @@ attributes:
     title: shading device material
     examples:
     - value: ''
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     aliases:
     - shading device material
     rank: 1000
@@ -20716,7 +20716,7 @@ attributes:
     title: shading device type
     examples:
     - value: slatted aluminum awning
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     aliases:
     - shading device type
     rank: 1000
@@ -20749,7 +20749,7 @@ attributes:
     - value: combined 2 cores | 4mm sieved
     - value: 4 mm sieved and homogenized
     - value: 50 g | 5 cores | 2 mm sieved
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     aliases:
     - composite design/sieving
     rank: 1000
@@ -20778,7 +20778,7 @@ attributes:
     title: silicate
     examples:
     - value: 0.05 micromole per liter
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     aliases:
     - silicate
     rank: 1000
@@ -20800,7 +20800,7 @@ attributes:
     title: size fraction selected
     examples:
     - value: 0-0.22 micrometer
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     aliases:
     - size fraction selected
     rank: 1000
@@ -20830,7 +20830,7 @@ attributes:
     title: size-fraction lower threshold
     examples:
     - value: 0.2 micrometer
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     aliases:
     - size-fraction lower threshold
     rank: 1000
@@ -20859,7 +20859,7 @@ attributes:
     title: size-fraction upper threshold
     examples:
     - value: 20 micrometer
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     aliases:
     - size-fraction upper threshold
     rank: 1000
@@ -20894,7 +20894,7 @@ attributes:
       is west-facing.
     examples:
     - value: '35'
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     aliases:
     - slope aspect
     rank: 1000
@@ -20928,7 +20928,7 @@ attributes:
     - value: 10%
     - value: 10 %
     - value: '0.10'
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     aliases:
     - slope gradient
     rank: 1000
@@ -20956,7 +20956,7 @@ attributes:
     title: sludge retention time
     examples:
     - value: ''
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     aliases:
     - sludge retention time
     rank: 1000
@@ -20984,7 +20984,7 @@ attributes:
     title: sodium
     examples:
     - value: 10.5 milligram per liter
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     aliases:
     - sodium
     rank: 1000
@@ -21011,7 +21011,7 @@ attributes:
     title: soil horizon
     examples:
     - value: A horizon
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     aliases:
     - soil horizon
     rank: 1000
@@ -21039,7 +21039,7 @@ attributes:
     title: soil texture measurement
     examples:
     - value: ''
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     aliases:
     - soil texture measurement
     rank: 1000
@@ -21064,7 +21064,7 @@ attributes:
     title: soil texture method
     examples:
     - value: ''
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     aliases:
     - soil texture method
     rank: 1000
@@ -21092,7 +21092,7 @@ attributes:
     title: soil type
     examples:
     - value: plinthosol [ENVO:00002250]
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     aliases:
     - soil type
     rank: 1000
@@ -21120,7 +21120,7 @@ attributes:
     title: soil type method
     examples:
     - value: ''
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     aliases:
     - soil type method
     rank: 1000
@@ -21151,7 +21151,7 @@ attributes:
     title: solar irradiance
     examples:
     - value: 1.36 kilowatts per square meter per day
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     aliases:
     - solar irradiance
     rank: 1000
@@ -21180,7 +21180,7 @@ attributes:
     title: soluble inorganic material
     examples:
     - value: ''
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     aliases:
     - soluble inorganic material
     rank: 1000
@@ -21212,7 +21212,7 @@ attributes:
     title: soluble organic material
     examples:
     - value: ''
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     aliases:
     - soluble organic material
     rank: 1000
@@ -21243,7 +21243,7 @@ attributes:
     title: soluble reactive phosphorus
     examples:
     - value: 0.1 milligram per liter
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     aliases:
     - soluble reactive phosphorus
     rank: 1000
@@ -21276,7 +21276,7 @@ attributes:
     examples:
     - value: IGSN:AU1243
     - value: UUID:24f1467a-40f4-11ed-b878-0242ac120002
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     aliases:
     - source material identifiers
     rank: 1000
@@ -21302,7 +21302,7 @@ attributes:
     title: space typical state
     examples:
     - value: typically occupied
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     aliases:
     - space typical state
     rank: 1000
@@ -21329,7 +21329,7 @@ attributes:
     title: specifications
     examples:
     - value: construction
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     aliases:
     - specifications
     rank: 1000
@@ -21349,7 +21349,7 @@ attributes:
     comments:
     - Specific ecosystems help to define samples based on very specific characteristics
       of an environment under the five-level classification system.
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     see_also:
     - https://gold.jgi.doe.gov/help
     rank: 1000
@@ -21378,7 +21378,7 @@ attributes:
     title: specific humidity
     examples:
     - value: 15 per kilogram of air
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     aliases:
     - specific humidity
     rank: 1000
@@ -21404,7 +21404,7 @@ attributes:
     title: source rock depositional environment
     examples:
     - value: Marine
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     aliases:
     - source rock depositional environment
     rank: 1000
@@ -21430,7 +21430,7 @@ attributes:
     title: source rock geological age
     examples:
     - value: Silurian
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     aliases:
     - source rock geological age
     rank: 1000
@@ -21459,7 +21459,7 @@ attributes:
     title: source rock kerogen type
     examples:
     - value: Type IV
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     aliases:
     - source rock kerogen type
     rank: 1000
@@ -21485,7 +21485,7 @@ attributes:
     title: source rock lithology
     examples:
     - value: Coal
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     aliases:
     - source rock lithology
     rank: 1000
@@ -21513,7 +21513,7 @@ attributes:
     title: standing water regimen
     examples:
     - value: standing water;R2/2018-05-11T14:30/2018-05-11T19:30/P1H30M
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     aliases:
     - standing water regimen
     rank: 1000
@@ -21542,7 +21542,7 @@ attributes:
     title: storage conditions
     examples:
     - value: -20 degree Celsius freezer;P2Y10D
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     aliases:
     - storage conditions
     rank: 1000
@@ -21569,7 +21569,7 @@ attributes:
     title: substructure type
     examples:
     - value: basement
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     aliases:
     - substructure type
     rank: 1000
@@ -21597,7 +21597,7 @@ attributes:
     title: sulfate
     examples:
     - value: 5 micromole per liter
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     aliases:
     - sulfate
     rank: 1000
@@ -21625,7 +21625,7 @@ attributes:
     title: sulfate in formation water
     examples:
     - value: ''
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     aliases:
     - sulfate in formation water
     rank: 1000
@@ -21653,7 +21653,7 @@ attributes:
     title: sulfide
     examples:
     - value: 2 micromole per liter
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     aliases:
     - sulfide
     rank: 1000
@@ -21678,7 +21678,7 @@ attributes:
     title: surface-air contaminant
     examples:
     - value: radon
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     aliases:
     - surface-air contaminant
     rank: 1000
@@ -21706,7 +21706,7 @@ attributes:
     title: surface humidity
     examples:
     - value: 10%
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     aliases:
     - surface humidity
     rank: 1000
@@ -21731,7 +21731,7 @@ attributes:
     title: surface material
     examples:
     - value: wood
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     aliases:
     - surface material
     rank: 1000
@@ -21759,7 +21759,7 @@ attributes:
     title: surface moisture
     examples:
     - value: 0.01 gram per square meter
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     aliases:
     - surface moisture
     rank: 1000
@@ -21784,7 +21784,7 @@ attributes:
     title: surface moisture pH
     examples:
     - value: '7'
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     aliases:
     - surface moisture pH
     rank: 1000
@@ -21812,7 +21812,7 @@ attributes:
     title: surface temperature
     examples:
     - value: 15 degree Celsius
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     aliases:
     - surface temperature
     rank: 1000
@@ -21840,7 +21840,7 @@ attributes:
     title: suspended particulate matter
     examples:
     - value: 0.5 milligram per liter
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     aliases:
     - suspended particulate matter
     rank: 1000
@@ -21870,7 +21870,7 @@ attributes:
     title: suspended solids
     examples:
     - value: ''
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     aliases:
     - suspended solids
     rank: 1000
@@ -21904,7 +21904,7 @@ attributes:
     title: total acid number
     examples:
     - value: ''
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     aliases:
     - total acid number
     rank: 1000
@@ -21929,7 +21929,7 @@ attributes:
     title: temperature
     examples:
     - value: 25 degree Celsius
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     aliases:
     - temperature
     rank: 1000
@@ -21957,7 +21957,7 @@ attributes:
     title: temperature outside house
     examples:
     - value: 5 degree Celsius
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     aliases:
     - temperature outside house
     rank: 1000
@@ -21983,7 +21983,7 @@ attributes:
     title: tertiary treatment
     examples:
     - value: ''
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     aliases:
     - tertiary treatment
     rank: 1000
@@ -22009,7 +22009,7 @@ attributes:
     title: tidal stage
     examples:
     - value: high tide
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     aliases:
     - tidal stage
     rank: 1000
@@ -22034,7 +22034,7 @@ attributes:
     title: history/tillage
     examples:
     - value: chisel
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     aliases:
     - history/tillage
     rank: 1000
@@ -22059,7 +22059,7 @@ attributes:
     title: tissue culture growth media
     examples:
     - value: https://link.springer.com/content/pdf/10.1007/BF02796489.pdf
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     aliases:
     - tissue culture growth media
     rank: 1000
@@ -22088,7 +22088,7 @@ attributes:
     title: toluene
     examples:
     - value: ''
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     aliases:
     - toluene
     rank: 1000
@@ -22121,7 +22121,7 @@ attributes:
       format
     examples:
     - value: 1 ug/L
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     aliases:
     - total carbon
     rank: 1000
@@ -22149,7 +22149,7 @@ attributes:
     title: total depth of water column
     examples:
     - value: 500 meter
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     aliases:
     - total depth of water column
     rank: 1000
@@ -22178,7 +22178,7 @@ attributes:
     title: total dissolved nitrogen
     examples:
     - value: 40 microgram per liter
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     aliases:
     - total dissolved nitrogen
     rank: 1000
@@ -22206,7 +22206,7 @@ attributes:
     title: total inorganic nitrogen
     examples:
     - value: 40 microgram per liter
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     aliases:
     - total inorganic nitrogen
     rank: 1000
@@ -22234,7 +22234,7 @@ attributes:
     title: total iron
     examples:
     - value: ''
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     aliases:
     - total iron
     rank: 1000
@@ -22264,7 +22264,7 @@ attributes:
     title: total nitrogen concentration
     examples:
     - value: 50 micromole per liter
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     aliases:
     - total nitrogen concentration
     rank: 1000
@@ -22290,7 +22290,7 @@ attributes:
     examples:
     - value: https://doi.org/10.2134/agronmonogr9.2.c32
     - value: https://acsess.onlinelibrary.wiley.com/doi/full/10.2136/sssaj2009.0389?casa_token=bm0pYIUdNMgAAAAA%3AOWVRR0STHaOe-afTcTdxn5m1hM8n2ltM0wY-b1iYpYdD9dhwppk5j3LvC2IO5yhOIvyLVeQz4NZRCZo
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     aliases:
     - total nitrogen content method
     rank: 1000
@@ -22319,7 +22319,7 @@ attributes:
     title: total nitrogen content
     examples:
     - value: 5 mg N/ L
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     aliases:
     - total nitrogen content
     rank: 1000
@@ -22344,7 +22344,7 @@ attributes:
     title: total organic carbon method
     examples:
     - value: https://doi.org/10.1080/07352680902776556
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     aliases:
     - total organic carbon method
     rank: 1000
@@ -22376,7 +22376,7 @@ attributes:
     - check description. How are they different?
     examples:
     - value: 5 mg N/ L
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     aliases:
     - total organic carbon
     rank: 1000
@@ -22404,7 +22404,7 @@ attributes:
     title: total particulate carbon
     examples:
     - value: 35 micromole per liter
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     aliases:
     - total particulate carbon
     rank: 1000
@@ -22433,7 +22433,7 @@ attributes:
     title: total phosphorus
     examples:
     - value: 0.03 milligram per liter
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     aliases:
     - total phosphorus
     rank: 1000
@@ -22461,7 +22461,7 @@ attributes:
     title: total phosphate
     examples:
     - value: ''
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     aliases:
     - total phosphate
     rank: 1000
@@ -22489,7 +22489,7 @@ attributes:
     title: total sulfur
     examples:
     - value: ''
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     aliases:
     - total sulfur
     rank: 1000
@@ -22514,7 +22514,7 @@ attributes:
     title: train line
     examples:
     - value: red
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     aliases:
     - train line
     rank: 1000
@@ -22539,7 +22539,7 @@ attributes:
     title: train station collection location
     examples:
     - value: forest hills
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     aliases:
     - train station collection location
     rank: 1000
@@ -22564,7 +22564,7 @@ attributes:
     title: train stop collection location
     examples:
     - value: end
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     aliases:
     - train stop collection location
     rank: 1000
@@ -22593,7 +22593,7 @@ attributes:
     title: turbidity
     examples:
     - value: 0.3 nephelometric turbidity units
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     aliases:
     - turbidity
     rank: 1000
@@ -22622,7 +22622,7 @@ attributes:
     title: depth (TVDSS) of hydrocarbon resource pressure
     examples:
     - value: ''
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     aliases:
     - depth (TVDSS) of hydrocarbon resource pressure
     rank: 1000
@@ -22651,7 +22651,7 @@ attributes:
     title: depth (TVDSS) of hydrocarbon resource temperature
     examples:
     - value: ''
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     aliases:
     - depth (TVDSS) of hydrocarbon resource temperature
     rank: 1000
@@ -22676,7 +22676,7 @@ attributes:
     title: typical occupant density
     examples:
     - value: '25'
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     aliases:
     - typical occupant density
     rank: 1000
@@ -22704,7 +22704,7 @@ attributes:
     title: ventilation rate
     examples:
     - value: 750 cubic meter per minute
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     aliases:
     - ventilation rate
     rank: 1000
@@ -22729,7 +22729,7 @@ attributes:
     title: ventilation type
     examples:
     - value: Operable windows
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     aliases:
     - ventilation type
     rank: 1000
@@ -22758,7 +22758,7 @@ attributes:
     title: volatile fatty acids
     examples:
     - value: ''
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     aliases:
     - volatile fatty acids
     rank: 1000
@@ -22786,7 +22786,7 @@ attributes:
     title: vfa in formation water
     examples:
     - value: ''
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     aliases:
     - vfa in formation water
     rank: 1000
@@ -22811,7 +22811,7 @@ attributes:
     title: visual media
     examples:
     - value: 3D scans
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     aliases:
     - visual media
     rank: 1000
@@ -22840,7 +22840,7 @@ attributes:
     title: viscosity
     examples:
     - value: ''
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     aliases:
     - viscosity
     rank: 1000
@@ -22871,7 +22871,7 @@ attributes:
     title: volatile organic compounds
     examples:
     - value: formaldehyde;500 nanogram per liter
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     aliases:
     - volatile organic compounds
     rank: 1000
@@ -22902,7 +22902,7 @@ attributes:
     title: wall area
     examples:
     - value: ''
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     aliases:
     - wall area
     rank: 1000
@@ -22928,7 +22928,7 @@ attributes:
     title: wall construction type
     examples:
     - value: fire resistive
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     aliases:
     - wall construction type
     rank: 1000
@@ -22953,7 +22953,7 @@ attributes:
     title: wall finish material
     examples:
     - value: wood
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     aliases:
     - wall finish material
     rank: 1000
@@ -22981,7 +22981,7 @@ attributes:
     title: wall height
     examples:
     - value: ''
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     aliases:
     - wall height
     rank: 1000
@@ -23006,7 +23006,7 @@ attributes:
     title: wall location
     examples:
     - value: north
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     aliases:
     - wall location
     rank: 1000
@@ -23031,7 +23031,7 @@ attributes:
     title: wall surface treatment
     examples:
     - value: paneling
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     aliases:
     - wall surface treatment
     rank: 1000
@@ -23056,7 +23056,7 @@ attributes:
     title: wall texture
     examples:
     - value: popcorn
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     aliases:
     - wall texture
     rank: 1000
@@ -23086,7 +23086,7 @@ attributes:
     title: wall thermal mass
     examples:
     - value: ''
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     aliases:
     - wall thermal mass
     rank: 1000
@@ -23111,7 +23111,7 @@ attributes:
     title: wall signs of water/mold
     examples:
     - value: no presence of mold visible
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     aliases:
     - wall signs of water/mold
     rank: 1000
@@ -23138,7 +23138,7 @@ attributes:
     title: wastewater type
     examples:
     - value: ''
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     aliases:
     - wastewater type
     rank: 1000
@@ -23174,7 +23174,7 @@ attributes:
     examples:
     - value: J. Nat. Prod. Plant Resour., 2012, 2 (4):500-503
     - value: https://dec.alaska.gov/applications/spar/webcalc/definitions.htm
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     aliases:
     - water content method
     rank: 1000
@@ -23207,7 +23207,7 @@ attributes:
     - value: 75% water holding capacity
     - value: 1.1 g fresh weight/ dry weight
     - value: 10% water filled pore space
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     aliases:
     - water content
     rank: 1000
@@ -23235,7 +23235,7 @@ attributes:
     title: water current
     examples:
     - value: 10 cubic meter per second
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     aliases:
     - water current
     rank: 1000
@@ -23264,7 +23264,7 @@ attributes:
     title: water cut
     examples:
     - value: ''
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     aliases:
     - water cut
     rank: 1000
@@ -23292,7 +23292,7 @@ attributes:
     title: water feature size
     examples:
     - value: ''
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     aliases:
     - water feature size
     rank: 1000
@@ -23317,7 +23317,7 @@ attributes:
     title: water feature type
     examples:
     - value: stream
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     aliases:
     - water feature type
     rank: 1000
@@ -23345,7 +23345,7 @@ attributes:
     title: water production rate
     examples:
     - value: ''
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     aliases:
     - water production rate
     rank: 1000
@@ -23376,7 +23376,7 @@ attributes:
     title: water temperature regimen
     examples:
     - value: 15 degree Celsius;R2/2018-05-11T14:30/2018-05-11T19:30/P1H30M
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     aliases:
     - water temperature regimen
     rank: 1000
@@ -23411,7 +23411,7 @@ attributes:
     examples:
     - value: 1 liter;R2/2018-05-11T14:30/2018-05-11T19:30/P1H30M
     - value: 75% water holding capacity; constant
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     aliases:
     - watering regimen
     rank: 1000
@@ -23439,7 +23439,7 @@ attributes:
     title: weekday
     examples:
     - value: Sunday
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     aliases:
     - weekday
     rank: 1000
@@ -23467,7 +23467,7 @@ attributes:
     title: well identification number
     examples:
     - value: ''
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     aliases:
     - well identification number
     rank: 1000
@@ -23493,7 +23493,7 @@ attributes:
     title: wind direction
     examples:
     - value: Northwest
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     aliases:
     - wind direction
     rank: 1000
@@ -23522,7 +23522,7 @@ attributes:
     title: wind speed
     examples:
     - value: 21 kilometer per hour
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     aliases:
     - wind speed
     rank: 1000
@@ -23547,7 +23547,7 @@ attributes:
     title: window condition
     examples:
     - value: rupture
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     aliases:
     - window condition
     rank: 1000
@@ -23572,7 +23572,7 @@ attributes:
     title: window covering
     examples:
     - value: curtains
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     aliases:
     - window covering
     rank: 1000
@@ -23597,7 +23597,7 @@ attributes:
     title: window horizontal position
     examples:
     - value: middle
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     aliases:
     - window horizontal position
     rank: 1000
@@ -23622,7 +23622,7 @@ attributes:
     title: window location
     examples:
     - value: west
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     aliases:
     - window location
     rank: 1000
@@ -23647,7 +23647,7 @@ attributes:
     title: window material
     examples:
     - value: wood
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     aliases:
     - window material
     rank: 1000
@@ -23672,7 +23672,7 @@ attributes:
     title: window open frequency
     examples:
     - value: ''
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     aliases:
     - window open frequency
     rank: 1000
@@ -23700,7 +23700,7 @@ attributes:
     title: window area/size
     examples:
     - value: ''
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     aliases:
     - window area/size
     rank: 1000
@@ -23727,7 +23727,7 @@ attributes:
     title: window status
     examples:
     - value: open
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     aliases:
     - window status
     rank: 1000
@@ -23753,7 +23753,7 @@ attributes:
     title: window type
     examples:
     - value: fixed window
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     aliases:
     - window type
     rank: 1000
@@ -23778,7 +23778,7 @@ attributes:
     title: window vertical position
     examples:
     - value: middle
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     aliases:
     - window vertical position
     rank: 1000
@@ -23803,7 +23803,7 @@ attributes:
     title: window signs of water/mold
     examples:
     - value: no presence of mold visible
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     aliases:
     - window signs of water/mold
     rank: 1000
@@ -23832,7 +23832,7 @@ attributes:
     title: xylene
     examples:
     - value: ''
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     aliases:
     - xylene
     rank: 1000
@@ -23860,7 +23860,7 @@ attributes:
     title: zinc
     examples:
     - value: 2.5 mg/kg
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     see_also:
     - https://www.ornl.gov/content/bio-scales-0
     aliases:
@@ -23874,7 +23874,7 @@ attributes:
   add_date:
     name: add_date
     description: The date on which the information was added to the database.
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     rank: 1000
     alias: add_date
     owner: Biosample
@@ -23884,7 +23884,7 @@ attributes:
     range: string
   community:
     name: community
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     rank: 1000
     alias: community
     owner: Biosample
@@ -23893,7 +23893,7 @@ attributes:
     range: string
   habitat:
     name: habitat
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     rank: 1000
     alias: habitat
     owner: Biosample
@@ -23903,7 +23903,7 @@ attributes:
     range: string
   host_name:
     name: host_name
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     rank: 1000
     alias: host_name
     owner: Biosample
@@ -23912,7 +23912,7 @@ attributes:
     range: string
   location:
     name: location
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     rank: 1000
     alias: location
     owner: Biosample
@@ -23922,7 +23922,7 @@ attributes:
   mod_date:
     name: mod_date
     description: The last date on which the database information was modified.
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     rank: 1000
     alias: mod_date
     owner: Biosample
@@ -23932,7 +23932,7 @@ attributes:
     range: string
   ncbi_taxonomy_name:
     name: ncbi_taxonomy_name
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     rank: 1000
     alias: ncbi_taxonomy_name
     owner: Biosample
@@ -23941,7 +23941,7 @@ attributes:
     range: string
   proport_woa_temperature:
     name: proport_woa_temperature
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     rank: 1000
     alias: proport_woa_temperature
     owner: Biosample
@@ -23954,7 +23954,7 @@ attributes:
       halotolerant, hypersaline, huryhaline'
     notes:
     - maps to gold:salinity
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     see_also:
     - https://github.com/microbiomedata/nmdc-metadata/pull/297
     rank: 1000
@@ -23965,7 +23965,7 @@ attributes:
     range: string
   sample_collection_site:
     name: sample_collection_site
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     rank: 1000
     alias: sample_collection_site
     owner: Biosample
@@ -23974,7 +23974,7 @@ attributes:
     range: string
   soluble_iron_micromol:
     name: soluble_iron_micromol
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     rank: 1000
     alias: soluble_iron_micromol
     owner: Biosample
@@ -23983,7 +23983,7 @@ attributes:
     range: string
   subsurface_depth:
     name: subsurface_depth
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     rank: 1000
     alias: subsurface_depth
     owner: Biosample
@@ -23998,7 +23998,7 @@ attributes:
     - Recommended value is between 1 and 3.
     examples:
     - value: '2.02'
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     rank: 7
     is_a: biomaterial_purity
     alias: dna_absorb1
@@ -24017,7 +24017,7 @@ attributes:
     - Recommended value is between 1 and 3.
     examples:
     - value: '2.02'
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     rank: 8
     is_a: biomaterial_purity
     alias: dna_absorb2
@@ -24033,7 +24033,7 @@ attributes:
     title: DNA collection site
     examples:
     - value: untreated pond water
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     rank: 15
     string_serialization: '{text}'
     alias: dna_collect_site
@@ -24051,7 +24051,7 @@ attributes:
       a fluorometric method. Acceptable values are 0-2000.
     examples:
     - value: '100'
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     see_also:
     - nmdc:nucleic_acid_concentration
     rank: 5
@@ -24071,7 +24071,7 @@ attributes:
     title: DNA container type
     examples:
     - value: plate
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     rank: 10
     alias: dna_cont_type
     owner: Biosample
@@ -24088,7 +24088,7 @@ attributes:
       in a plate should have the same plate label.
     examples:
     - value: Pond_MT_041618
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     rank: 9
     string_serialization: '{text &lt; 20 characters}'
     alias: dna_container_id
@@ -24105,7 +24105,7 @@ attributes:
     - Note DNase treatment is required for all RNA samples.
     examples:
     - value: 'no'
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     rank: 13
     alias: dna_dnase
     owner: Biosample
@@ -24120,7 +24120,7 @@ attributes:
     title: DNA isolation method
     examples:
     - value: phenol/chloroform extraction
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     aliases:
     - Sample Isolation Method
     rank: 16
@@ -24140,7 +24140,7 @@ attributes:
     examples:
     - value: expected to contain microbes (59%) fungi (30%), viruses (10%), tadpoles
         (1%)
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     rank: 14
     string_serialization: '{text}'
     alias: dna_organisms
@@ -24158,7 +24158,7 @@ attributes:
       values have been pre-filled.
     examples:
     - value: John Jones
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     rank: 18
     string_serialization: '{text}'
     alias: dna_project_contact
@@ -24180,7 +24180,7 @@ attributes:
       values have been pre-filled.
     examples:
     - value: '187654'
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     rank: 3
     string_serialization: '{text}'
     alias: dna_samp_id
@@ -24196,7 +24196,7 @@ attributes:
     title: DNA sample format
     examples:
     - value: Water
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     rank: 12
     alias: dna_sample_format
     owner: Biosample
@@ -24212,7 +24212,7 @@ attributes:
     title: DNA sample name
     examples:
     - value: JGI_pond_041618
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     rank: 4
     string_serialization: '{text}'
     alias: dna_sample_name
@@ -24230,7 +24230,7 @@ attributes:
       values have been pre-filled.
     examples:
     - value: '1191234'
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     aliases:
     - Seq Project ID
     rank: 1
@@ -24250,7 +24250,7 @@ attributes:
       values have been pre-filled.
     examples:
     - value: Jane Johnson
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     rank: 17
     string_serialization: '{text}'
     alias: dna_seq_project_pi
@@ -24268,7 +24268,7 @@ attributes:
       values have been pre-filled.
     examples:
     - value: JGI Pond metagenomics
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     rank: 2
     string_serialization: '{text}'
     alias: dna_seq_project_name
@@ -24287,7 +24287,7 @@ attributes:
       has been granted by a project manager
     examples:
     - value: '25'
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     rank: 6
     string_serialization: '{float}'
     alias: dna_volume
@@ -24307,7 +24307,7 @@ attributes:
       values have been pre-filled.
     examples:
     - value: '504000'
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     rank: 19
     string_serialization: '{text}'
     alias: proposal_dna
@@ -24324,7 +24324,7 @@ attributes:
     - Note DNase treatment is required for all RNA samples.
     examples:
     - value: 'no'
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     aliases:
     - Was Sample DNAse treated?
     rank: 13
@@ -24343,7 +24343,7 @@ attributes:
       values have been pre-filled.
     examples:
     - value: '504000'
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     rank: 19
     string_serialization: '{text}'
     alias: proposal_rna
@@ -24361,7 +24361,7 @@ attributes:
     - Recommended value is between 1 and 3.
     examples:
     - value: '2.02'
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     rank: 7
     string_serialization: '{float}'
     alias: rna_absorb1
@@ -24379,7 +24379,7 @@ attributes:
     - Recommended value is between 1 and 3.
     examples:
     - value: '2.02'
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     rank: 8
     string_serialization: '{float}'
     alias: rna_absorb2
@@ -24395,7 +24395,7 @@ attributes:
     title: RNA collection site
     examples:
     - value: untreated pond water
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     rank: 15
     string_serialization: '{text}'
     alias: rna_collect_site
@@ -24413,7 +24413,7 @@ attributes:
       a fluorometric method. Acceptable values are 0-2000.
     examples:
     - value: '100'
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     see_also:
     - nmdc:nucleic_acid_concentration
     rank: 5
@@ -24433,7 +24433,7 @@ attributes:
     title: RNA container type
     examples:
     - value: plate
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     rank: 10
     alias: rna_cont_type
     owner: Biosample
@@ -24453,7 +24453,7 @@ attributes:
     - For partial plates, fill by columns, like B1-G1,A2-H2,A3-D3 (NOT A2-A11,B1-B8).
     examples:
     - value: B2
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     rank: 11
     string_serialization: '{96 well plate pos}'
     alias: rna_cont_well
@@ -24472,7 +24472,7 @@ attributes:
       in a plate should have the same plate label.
     examples:
     - value: Pond_MT_041618
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     rank: 9
     string_serialization: '{text &lt; 20 characters}'
     alias: rna_container_id
@@ -24488,7 +24488,7 @@ attributes:
     title: RNA isolation method
     examples:
     - value: phenol/chloroform extraction
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     aliases:
     - Sample Isolation Method
     rank: 16
@@ -24508,7 +24508,7 @@ attributes:
     examples:
     - value: expected to contain microbes (59%) fungi (30%), viruses (10%), tadpoles
         (1%)
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     rank: 14
     string_serialization: '{text}'
     alias: rna_organisms
@@ -24526,7 +24526,7 @@ attributes:
       values have been pre-filled.
     examples:
     - value: John Jones
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     rank: 18
     string_serialization: '{text}'
     alias: rna_project_contact
@@ -24544,7 +24544,7 @@ attributes:
       values have been pre-filled.
     examples:
     - value: '187654'
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     rank: 3
     string_serialization: '{text}'
     alias: rna_samp_id
@@ -24560,7 +24560,7 @@ attributes:
     title: RNA sample format
     examples:
     - value: Water
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     rank: 12
     alias: rna_sample_format
     owner: Biosample
@@ -24576,7 +24576,7 @@ attributes:
     title: RNA sample name
     examples:
     - value: JGI_pond_041618
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     rank: 4
     string_serialization: '{text}'
     alias: rna_sample_name
@@ -24596,7 +24596,7 @@ attributes:
       values have been pre-filled.
     examples:
     - value: '1191234'
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     aliases:
     - Seq Project ID
     rank: 1
@@ -24616,7 +24616,7 @@ attributes:
       values have been pre-filled.
     examples:
     - value: Jane Johnson
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     rank: 17
     string_serialization: '{text}'
     alias: rna_seq_project_pi
@@ -24634,7 +24634,7 @@ attributes:
       values have been pre-filled.
     examples:
     - value: JGI Pond metatranscriptomics
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     rank: 2
     string_serialization: '{text}'
     alias: rna_seq_project_name
@@ -24653,7 +24653,7 @@ attributes:
       has been granted by a project manager
     examples:
     - value: '25'
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     rank: 6
     string_serialization: '{float}'
     alias: rna_volume
@@ -24680,7 +24680,7 @@ attributes:
     - value: '2021-04-15'
     - value: 2021-04
     - value: '2021'
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     see_also:
     - MIXS:0000011
     rank: 2
@@ -24704,7 +24704,7 @@ attributes:
     examples:
     - value: '13:33'
     - value: '13:33:55'
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     see_also:
     - MIXS:0000011
     rank: 1
@@ -24729,7 +24729,7 @@ attributes:
     examples:
     - value: '13:33'
     - value: '13:33:55'
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     see_also:
     - MIXS:0000011
     rank: 3
@@ -24753,7 +24753,7 @@ attributes:
       data collection template.
     examples:
     - value: 'experimental treatment: value'
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     see_also:
     - MIXS:0000008
     - MIXS:0000300
@@ -24775,7 +24775,7 @@ attributes:
     examples:
     - value: C18
     - value: Basix PES, 13-100-106 FisherSci
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     see_also:
     - MIXS:0000765
     rank: 6
@@ -24799,7 +24799,7 @@ attributes:
     examples:
     - value: 13C glucose
     - value: 18O water
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     see_also:
     - MIXS:0000751
     rank: 16
@@ -24821,7 +24821,7 @@ attributes:
     examples:
     - value: https://doi.org/10.1016/0038-0717(87)90052-6
     - value: https://doi.org/10.1016/0038-0717(87)90052-6 | https://www.sciencedirect.com/science/article/abs/pii/0038071787900526
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     see_also:
     - MIXS:0000339
     rank: 11
@@ -24842,7 +24842,7 @@ attributes:
     examples:
     - value: https://doi.org/10.1016/0038-0717(87)90052-6
     - value: https://doi.org/10.1016/0038-0717(87)90052-6 | https://www.sciencedirect.com/science/article/abs/pii/0038071787900526
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     see_also:
     - MIXS:0000339
     rank: 13
@@ -24863,7 +24863,7 @@ attributes:
       and method are required
     examples:
     - value: 0.05 ug C/g dry soil
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     see_also:
     - MIXS:0000650
     rank: 10
@@ -24884,7 +24884,7 @@ attributes:
       and method are required
     examples:
     - value: 0.05 ug N/g dry soil
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     see_also:
     - MIXS:0000650
     rank: 12
@@ -24903,7 +24903,7 @@ attributes:
     title: non-microbial biomass
     examples:
     - value: insect 0.23 ug; plant 1g
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     see_also:
     - MIXS:0000174
     - MIXS:0000650
@@ -24923,7 +24923,7 @@ attributes:
     - required if "non-microbial biomass" is provided
     examples:
     - value: https://doi.org/10.1038/s41467-021-26181-3
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     see_also:
     - MIXS:0000650
     rank: 9
@@ -24942,7 +24942,7 @@ attributes:
     - required if "org_nitro" is provided
     examples:
     - value: https://doi.org/10.1016/0038-0717(85)90144-0
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     see_also:
     - MIXS:0000338
     - MIXS:0000205
@@ -24964,7 +24964,7 @@ attributes:
     comments:
     - This is an open text field to provide any treatments that cannot be captured
       in the provided slots.
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     see_also:
     - MIXS:0000300
     rank: 15
@@ -24990,7 +24990,7 @@ attributes:
     - value: '2021-04-15'
     - value: 2021-04
     - value: '2021'
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     see_also:
     - MIXS:0000011
     rank: 4
@@ -25014,7 +25014,7 @@ attributes:
     examples:
     - value: '13:33'
     - value: '13:33:55'
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     see_also:
     - MIXS:0000011
     rank: 5
@@ -25030,7 +25030,7 @@ attributes:
     name: project_id
     description: Proposal IDs or names associated with dataset
     title: project ID
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     rank: 1
     string_serialization: '{text}'
     alias: project_id
@@ -25046,7 +25046,7 @@ attributes:
     title: replicate number
     comments:
     - This will guide staff in ensuring your samples are blocked &amp; randomized correctly
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     rank: 6
     string_serialization: '{integer}'
     alias: replicate_number
@@ -25068,7 +25068,7 @@ attributes:
     - value: 15 g
     - value: 100 uL
     - value: 5 mL
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     rank: 3
     string_serialization: '{float} {unit}'
     alias: sample_shipped
@@ -25086,7 +25086,7 @@ attributes:
     - This can vary from 'environmental package' if the sample is an extraction.
     examples:
     - value: water extracted soil
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     rank: 2
     alias: sample_type
     owner: Biosample
@@ -25105,7 +25105,7 @@ attributes:
       to EMSL for analyses.
     examples:
     - value: '2'
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     rank: 5
     string_serialization: '{integer}'
     alias: technical_reps
@@ -25124,7 +25124,7 @@ attributes:
       any more
     examples:
     - value: metagenomics; metabolomics; metaproteomics
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     rank: 3
     alias: analysis_type
     owner: Biosample
@@ -25147,7 +25147,7 @@ attributes:
       to a new vial and generated a new sample)'
     examples:
     - value: IGSN:DSJ0284
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     rank: 5
     string_serialization: '{text}:{text}'
     alias: sample_link
@@ -25168,7 +25168,7 @@ attributes:
     examples:
     - value: JsonObj(has_raw_value='0.017 mS/cm', has_numeric_value=0.017, has_unit='mS/cm')
       description: The conductivity measurement was 0.017 millisiemens per centimeter.
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     rank: 1000
     alias: bulk_elect_conductivity
     owner: Biosample
@@ -25180,7 +25180,7 @@ attributes:
     description: The amount of time it takes to complete each infiltration activity
     examples:
     - value: '[''00:01:32'', ''00:00:53'']'
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     see_also:
     - https://www.protocols.io/view/field-sampling-protocol-kqdg3962pg25/v1
     aliases:
@@ -25209,7 +25209,7 @@ attributes:
     examples:
     - value: nmdc:mgmag-00-x012.1_7_c1
       description: https://github.com/microbiomedata/nmdc-schema/pull/499#discussion_r1018499248
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     structured_aliases:
       workflow_execution_id:
         literal_form: workflow_execution_id
@@ -25236,7 +25236,7 @@ attributes:
   name:
     name: name
     description: A human readable label for an entity
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     rank: 1000
     alias: name
     owner: Biosample
@@ -25248,7 +25248,7 @@ attributes:
   description:
     name: description
     description: a human-readable description of a thing
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     rank: 1000
     slot_uri: dcterms:description
     alias: description
@@ -25261,7 +25261,7 @@ attributes:
     name: alternative_identifiers
     description: Unique identifier for a biosample submitted to additional resources.
       Matches the entity that has been submitted to NMDC
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     rank: 1000
     alias: alternative_identifiers
     owner: Biosample
@@ -25280,7 +25280,7 @@ attributes:
     examples:
     - value: nmdc:Biosample
     - value: nmdc:Study
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     see_also:
     - https://github.com/microbiomedata/nmdc-schema/issues/1048
     - https://github.com/microbiomedata/nmdc-schema/issues/1233

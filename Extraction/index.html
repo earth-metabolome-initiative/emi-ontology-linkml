@@ -490,7 +490,7 @@
 <h2 id="identifier-and-mapping-information">Identifier and Mapping Information</h2>
 <h3 id="schema-source">Schema Source</h3>
 <ul>
-<li>from schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml</li>
+<li>from schema: https://www.earthmetabolome.org/emi-ontology-linkml/</li>
 </ul>
 <h2 id="mappings">Mappings</h2>
 <table>
@@ -522,7 +522,7 @@
 <pre><code class="language-yaml">name: Extraction
 description: A material separation in which a desired component of an input material
   is separated from the remainder.
-from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
 exact_mappings:
 - OBI:0302884
 is_a: MaterialProcessing
@@ -563,7 +563,7 @@ class_uri: nmdc:Extraction
 <pre><code class="language-yaml">name: Extraction
 description: A material separation in which a desired component of an input material
   is separated from the remainder.
-from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
 exact_mappings:
 - OBI:0302884
 is_a: MaterialProcessing
@@ -594,7 +594,7 @@ attributes:
   substances_used:
     name: substances_used
     description: The substances that are combined to enable a ChemicalConversionProcess.
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     rank: 1000
     alias: substances_used
     owner: Extraction
@@ -614,7 +614,7 @@ attributes:
       during an extraction process.
     notes:
     - todos, remove nucl_acid_ext from OmicsProcessing (DataGeneration)
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     narrow_mappings:
     - NCIT:C177560
     - MIXS:0000037
@@ -629,7 +629,7 @@ attributes:
     name: input_mass
     description: Total mass of sample used in activity.
     title: sample mass used
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     aliases:
     - sample mass
     - sample weight
@@ -646,7 +646,7 @@ attributes:
   volume:
     name: volume
     description: The volume of the solvent/solute being used, not the input.
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     contributors:
     - ORCID:0009-0001-1555-1601
     - ORCID:0000-0002-8683-0050
@@ -663,7 +663,7 @@ attributes:
   instrument_used:
     name: instrument_used
     description: What instrument was used during DataGeneration or MaterialProcessing.
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     rank: 1000
     alias: instrument_used
     owner: Extraction
@@ -678,7 +678,7 @@ attributes:
   has_input:
     name: has_input
     description: An input to a process.
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     aliases:
     - input
     rank: 1000
@@ -695,7 +695,7 @@ attributes:
   has_output:
     name: has_output
     description: An output from a process.
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     aliases:
     - output
     rank: 1000
@@ -712,7 +712,7 @@ attributes:
   processing_institution:
     name: processing_institution
     description: The organization that processed the sample.
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     rank: 1000
     alias: processing_institution
     owner: Extraction
@@ -721,7 +721,7 @@ attributes:
     range: ProcessingInstitutionEnum
   protocol_link:
     name: protocol_link
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     rank: 1000
     alias: protocol_link
     owner: Extraction
@@ -738,7 +738,7 @@ attributes:
     - We are using string representations of dates until all components of our ecosystem
       can handle ISO 8610 dates
     - The date should be formatted as YYYY-MM-DD
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     rank: 1000
     alias: start_date
     owner: Extraction
@@ -754,7 +754,7 @@ attributes:
     - We are using string representations of dates until all components of our ecosystem
       can handle ISO 8610 dates
     - The date should be formatted as YYYY-MM-DD
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     rank: 1000
     alias: end_date
     owner: Extraction
@@ -766,7 +766,7 @@ attributes:
     description: Stores information about the result of a process (ie the process
       of sequencing a library may have for qc_status of 'fail' if not enough data
       was generated)
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     rank: 1000
     alias: qc_status
     owner: Extraction
@@ -778,7 +778,7 @@ attributes:
     description: Slot to store additional comments about laboratory or workflow output.
       For workflow output it may describe the particular workflow stage that failed.
       (ie Failed at call-stage due to a malformed fastq file).
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     rank: 1000
     alias: qc_comment
     owner: Extraction
@@ -787,7 +787,7 @@ attributes:
     range: string
   has_failure_categorization:
     name: has_failure_categorization
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     rank: 1000
     alias: has_failure_categorization
     owner: Extraction
@@ -812,7 +812,7 @@ attributes:
     examples:
     - value: nmdc:mgmag-00-x012.1_7_c1
       description: https://github.com/microbiomedata/nmdc-schema/pull/499#discussion_r1018499248
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     structured_aliases:
       workflow_execution_id:
         literal_form: workflow_execution_id
@@ -839,7 +839,7 @@ attributes:
   name:
     name: name
     description: A human readable label for an entity
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     rank: 1000
     alias: name
     owner: Extraction
@@ -851,7 +851,7 @@ attributes:
   description:
     name: description
     description: a human-readable description of a thing
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     rank: 1000
     slot_uri: dcterms:description
     alias: description
@@ -863,7 +863,7 @@ attributes:
   alternative_identifiers:
     name: alternative_identifiers
     description: A list of alternative identifiers for the entity.
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     rank: 1000
     alias: alternative_identifiers
     owner: Extraction
@@ -882,7 +882,7 @@ attributes:
     examples:
     - value: nmdc:Biosample
     - value: nmdc:Study
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     see_also:
     - https://github.com/microbiomedata/nmdc-schema/issues/1048
     - https://github.com/microbiomedata/nmdc-schema/issues/1233

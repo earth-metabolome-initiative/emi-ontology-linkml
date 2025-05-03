@@ -373,7 +373,7 @@
 <h2 id="identifier-and-mapping-information">Identifier and Mapping Information</h2>
 <h3 id="schema-source">Schema Source</h3>
 <ul>
-<li>from schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml</li>
+<li>from schema: https://www.earthmetabolome.org/emi-ontology-linkml/</li>
 </ul>
 <h2 id="mappings">Mappings</h2>
 <table>
@@ -403,7 +403,7 @@ description: An attribute value representing a person
 todos:
 - add additional fields e.g for institution
 - deprecate "has_raw_value" in favor of "name"
-from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
 is_a: AttributeValue
 slots:
 - email
@@ -448,7 +448,7 @@ description: An attribute value representing a person
 todos:
 - add additional fields e.g for institution
 - deprecate "has_raw_value" in favor of "name"
-from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
 is_a: AttributeValue
 slot_usage:
   orcid:
@@ -485,7 +485,7 @@ attributes:
         value: Email address for this person.
     description: An email address for an entity such as a person. This should be the
       primary email address used.
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     rank: 1000
     slot_uri: schema:email
     alias: email
@@ -501,7 +501,7 @@ attributes:
         value: First name, middle initial, and last name of this person.
     description: The full name of the Investigator. It should follow the format FIRST
       [MIDDLE NAME| MIDDLE INITIAL] LAST, where MIDDLE NAME| MIDDLE INITIAL is optional.
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     rank: 1000
     alias: name
     owner: PersonValue
@@ -517,7 +517,7 @@ attributes:
         tag: tooltip
         value: Open Researcher and Contributor ID for this person. See https://orcid.org
     description: The ORCID of a person.
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     rank: 1000
     alias: orcid
     owner: PersonValue
@@ -527,7 +527,7 @@ attributes:
   profile_image_url:
     name: profile_image_url
     description: A url that points to an image of a person.
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     rank: 1000
     alias: profile_image_url
     owner: PersonValue
@@ -544,7 +544,7 @@ attributes:
     - consortium is a convenience term for a Study whose study_category value is consortium
     - the website slot and its subproperties are virtually identical to the url slot,
       except that they are multivalued and url is single-valued.
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     see_also:
     - nmdc:url
     rank: 1000
@@ -561,7 +561,7 @@ attributes:
     description: The full name of the Investigator in format FIRST LAST.
     notes:
     - May eventually be deprecated in favor of "name".
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     rank: 1000
     alias: has_raw_value
     owner: PersonValue
@@ -577,7 +577,7 @@ attributes:
     examples:
     - value: nmdc:Biosample
     - value: nmdc:Study
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     see_also:
     - https://github.com/microbiomedata/nmdc-schema/issues/1048
     - https://github.com/microbiomedata/nmdc-schema/issues/1233

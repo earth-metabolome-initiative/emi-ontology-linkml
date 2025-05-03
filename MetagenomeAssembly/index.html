@@ -715,7 +715,7 @@
 <h2 id="identifier-and-mapping-information">Identifier and Mapping Information</h2>
 <h3 id="schema-source">Schema Source</h3>
 <ul>
-<li>from schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml</li>
+<li>from schema: https://www.earthmetabolome.org/emi-ontology-linkml/</li>
 </ul>
 <h2 id="mappings">Mappings</h2>
 <table>
@@ -746,7 +746,7 @@ description: A workflow execution activity that converts sequencing reads into a
 comments:
 - instances of this class may use a de novo assembly strategy in most or all cases
   relevant to NMDC
-from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
 is_a: WorkflowExecution
 slots:
 - asm_score
@@ -802,7 +802,7 @@ description: A workflow execution activity that converts sequencing reads into a
 comments:
 - instances of this class may use a de novo assembly strategy in most or all cases
   relevant to NMDC
-from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
 is_a: WorkflowExecution
 slot_usage:
   id:
@@ -821,7 +821,7 @@ attributes:
   asm_score:
     name: asm_score
     description: A score for comparing metagenomic assembly quality from same sample.
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     rank: 1000
     is_a: metagenome_assembly_parameter
     alias: asm_score
@@ -833,7 +833,7 @@ attributes:
   scaffolds:
     name: scaffolds
     description: Total sequence count of all scaffolds.
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     rank: 1000
     is_a: metagenome_assembly_parameter
     alias: scaffolds
@@ -846,7 +846,7 @@ attributes:
     name: scaf_logsum
     description: The sum of the (length*log(length)) of all scaffolds, times some
       constant.  Increase the contiguity, the score will increase
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     rank: 1000
     is_a: metagenome_assembly_parameter
     alias: scaf_logsum
@@ -859,7 +859,7 @@ attributes:
     name: scaf_powsum
     description: Powersum of all scaffolds is the same as logsum except that it uses
       the sum of (length*(length^P)) for some power P (default P=0.25).
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     rank: 1000
     is_a: metagenome_assembly_parameter
     alias: scaf_powsum
@@ -871,7 +871,7 @@ attributes:
   scaf_max:
     name: scaf_max
     description: Maximum scaffold length.
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     rank: 1000
     is_a: metagenome_assembly_parameter
     alias: scaf_max
@@ -883,7 +883,7 @@ attributes:
   scaf_bp:
     name: scaf_bp
     description: Total size in bp of all scaffolds.
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     rank: 1000
     is_a: metagenome_assembly_parameter
     alias: scaf_bp
@@ -897,7 +897,7 @@ attributes:
     description: Given a set of scaffolds, each with its own length, the N50 count
       is defined as the smallest number of scaffolds whose length sum makes up half
       of genome size.
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     rank: 1000
     is_a: metagenome_assembly_parameter
     alias: scaf_n50
@@ -911,7 +911,7 @@ attributes:
     description: Given a set of scaffolds, each with its own length, the N90 count
       is defined as the smallest number of scaffolds whose length sum makes up 90%
       of genome size.
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     rank: 1000
     is_a: metagenome_assembly_parameter
     alias: scaf_n90
@@ -924,7 +924,7 @@ attributes:
     name: scaf_l50
     description: Given a set of scaffolds, the L50 is defined as the sequence length
       of the shortest scaffold at 50% of the total genome length.
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     rank: 1000
     is_a: metagenome_assembly_parameter
     alias: scaf_l50
@@ -938,7 +938,7 @@ attributes:
     description: The L90 statistic is less than or equal to the L50 statistic; it
       is the length for which the collection of all scaffolds of that length or longer
       contains at least 90% of the sum of the lengths of all scaffolds.
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     rank: 1000
     is_a: metagenome_assembly_parameter
     alias: scaf_l90
@@ -950,7 +950,7 @@ attributes:
   scaf_n_gt50k:
     name: scaf_n_gt50k
     description: Total sequence count of scaffolds greater than 50 KB.
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     rank: 1000
     is_a: metagenome_assembly_parameter
     alias: scaf_n_gt50k
@@ -962,7 +962,7 @@ attributes:
   scaf_l_gt50k:
     name: scaf_l_gt50k
     description: Total size in bp of all scaffolds greater than 50 KB.
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     rank: 1000
     is_a: metagenome_assembly_parameter
     alias: scaf_l_gt50k
@@ -974,7 +974,7 @@ attributes:
   scaf_pct_gt50k:
     name: scaf_pct_gt50k
     description: Total sequence size percentage of scaffolds greater than 50 KB.
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     rank: 1000
     is_a: metagenome_assembly_parameter
     alias: scaf_pct_gt50k
@@ -987,7 +987,7 @@ attributes:
     name: contigs
     description: The sum of the (length*log(length)) of all contigs, times some constant.  Increase
       the contiguity, the score will increase
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     rank: 1000
     is_a: metagenome_assembly_parameter
     alias: contigs
@@ -999,7 +999,7 @@ attributes:
   contig_bp:
     name: contig_bp
     description: Total size in bp of all contigs.
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     rank: 1000
     is_a: metagenome_assembly_parameter
     alias: contig_bp
@@ -1013,7 +1013,7 @@ attributes:
     description: Given a set of contigs, each with its own length, the N50 count is
       defined as the smallest number_of_contigs whose length sum makes up half of
       genome size.
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     rank: 1000
     is_a: metagenome_assembly_parameter
     alias: ctg_n50
@@ -1026,7 +1026,7 @@ attributes:
     name: ctg_l50
     description: Given a set of contigs, the L50 is defined as the sequence length
       of the shortest contig at 50% of the total genome length.
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     rank: 1000
     is_a: metagenome_assembly_parameter
     alias: ctg_l50
@@ -1040,7 +1040,7 @@ attributes:
     description: Given a set of contigs, each with its own length, the N90 count is
       defined as the smallest number of contigs whose length sum makes up 90% of genome
       size.
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     rank: 1000
     is_a: metagenome_assembly_parameter
     alias: ctg_n90
@@ -1054,7 +1054,7 @@ attributes:
     description: The L90 statistic is less than or equal to the L50 statistic; it
       is the length for which the collection of all contigs of that length or longer
       contains at least 90% of the sum of the lengths of all contigs.
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     rank: 1000
     is_a: metagenome_assembly_parameter
     alias: ctg_l90
@@ -1066,7 +1066,7 @@ attributes:
   ctg_logsum:
     name: ctg_logsum
     description: Maximum contig length.
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     rank: 1000
     is_a: metagenome_assembly_parameter
     alias: ctg_logsum
@@ -1079,7 +1079,7 @@ attributes:
     name: ctg_powsum
     description: Powersum of all contigs is the same as logsum except that it uses
       the sum of (length*(length^P)) for some power P (default P=0.25).
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     rank: 1000
     is_a: metagenome_assembly_parameter
     alias: ctg_powsum
@@ -1091,7 +1091,7 @@ attributes:
   ctg_max:
     name: ctg_max
     description: Maximum contig length.
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     rank: 1000
     is_a: metagenome_assembly_parameter
     alias: ctg_max
@@ -1103,7 +1103,7 @@ attributes:
   gap_pct:
     name: gap_pct
     description: The gap size percentage of all scaffolds.
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     rank: 1000
     is_a: metagenome_assembly_parameter
     alias: gap_pct
@@ -1115,7 +1115,7 @@ attributes:
   gc_std:
     name: gc_std
     description: Standard deviation of GC content of all contigs.
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     rank: 1000
     is_a: metagenome_assembly_parameter
     alias: gc_std
@@ -1127,7 +1127,7 @@ attributes:
   gc_avg:
     name: gc_avg
     description: Average of GC content of all contigs.
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     rank: 1000
     is_a: metagenome_assembly_parameter
     alias: gc_avg
@@ -1139,7 +1139,7 @@ attributes:
   num_input_reads:
     name: num_input_reads
     description: The sequence count number of input reads for assembly.
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     rank: 1000
     is_a: metagenome_assembly_parameter
     alias: num_input_reads
@@ -1151,7 +1151,7 @@ attributes:
   num_aligned_reads:
     name: num_aligned_reads
     description: The sequence count number of input reads aligned to assembled contigs.
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     rank: 1000
     is_a: metagenome_assembly_parameter
     alias: num_aligned_reads
@@ -1162,7 +1162,7 @@ attributes:
     range: float
   insdc_assembly_identifiers:
     name: insdc_assembly_identifiers
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     rank: 1000
     is_a: assembly_identifiers
     mixins:
@@ -1179,7 +1179,7 @@ attributes:
     notes:
     - 'The regex for ISO-8601 format was taken from here: https://www.myintervals.com/blog/2009/05/20/iso-8601-date-validation-that-doesnt-suck/
       It may not be complete, but it is good enough for now.'
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     mappings:
     - prov:endedAtTime
     rank: 1000
@@ -1194,7 +1194,7 @@ attributes:
     description: The computing resource or facility where the workflow was executed.
     examples:
     - value: NERSC-Cori
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     rank: 1000
     alias: execution_resource
     owner: MetagenomeAssembly
@@ -1208,7 +1208,7 @@ attributes:
     examples:
     - value: https://github.com/microbiomedata/mg_annotation/releases/tag/0.1
     - value: https://github.com/microbiomedata/metaMS/blob/master/metaMS/gcmsWorkflow.py
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     rank: 1000
     alias: git_url
     owner: MetagenomeAssembly
@@ -1221,7 +1221,7 @@ attributes:
     notes:
     - 'The regex for ISO-8601 format was taken from here: https://www.myintervals.com/blog/2009/05/20/iso-8601-date-validation-that-doesnt-suck/
       It may not be complete, but it is good enough for now.'
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     mappings:
     - prov:startedAtTime
     rank: 1000
@@ -1234,7 +1234,7 @@ attributes:
     pattern: ^([\+-]?\d{4}(?!\d{2}\b))((-?)((0[1-9]|1[0-2])(\3([12]\d|0[1-9]|3[01]))?|W([0-4]\d|5[0-2])(-?[1-7])?|(00[1-9]|0[1-9]\d|[12]\d{2}|3([0-5]\d|6[1-6])))([T\s]((([01]\d|2[0-3])((:?)[0-5]\d)?|24\:?00)([\.,]\d+(?!:))?)?(\17[0-5]\d([\.,]\d+)?)?([zZ]|([\+-])([01]\d|2[0-3]):?([0-5]\d)?)?)?)?$
   version:
     name: version
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     rank: 1000
     alias: version
     owner: MetagenomeAssembly
@@ -1243,7 +1243,7 @@ attributes:
     range: string
   was_informed_by:
     name: was_informed_by
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     structured_aliases:
       was_informed_by:
         literal_form: was_informed_by
@@ -1265,7 +1265,7 @@ attributes:
   has_input:
     name: has_input
     description: An input to a process.
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     aliases:
     - input
     rank: 1000
@@ -1282,7 +1282,7 @@ attributes:
   has_output:
     name: has_output
     description: An output from a process.
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     aliases:
     - output
     rank: 1000
@@ -1298,7 +1298,7 @@ attributes:
   processing_institution:
     name: processing_institution
     description: The organization that processed the sample.
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     rank: 1000
     alias: processing_institution
     owner: MetagenomeAssembly
@@ -1307,7 +1307,7 @@ attributes:
     range: ProcessingInstitutionEnum
   protocol_link:
     name: protocol_link
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     rank: 1000
     alias: protocol_link
     owner: MetagenomeAssembly
@@ -1324,7 +1324,7 @@ attributes:
     - We are using string representations of dates until all components of our ecosystem
       can handle ISO 8610 dates
     - The date should be formatted as YYYY-MM-DD
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     rank: 1000
     alias: start_date
     owner: MetagenomeAssembly
@@ -1340,7 +1340,7 @@ attributes:
     - We are using string representations of dates until all components of our ecosystem
       can handle ISO 8610 dates
     - The date should be formatted as YYYY-MM-DD
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     rank: 1000
     alias: end_date
     owner: MetagenomeAssembly
@@ -1352,7 +1352,7 @@ attributes:
     description: Stores information about the result of a process (ie the process
       of sequencing a library may have for qc_status of 'fail' if not enough data
       was generated)
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     rank: 1000
     alias: qc_status
     owner: MetagenomeAssembly
@@ -1364,7 +1364,7 @@ attributes:
     description: Slot to store additional comments about laboratory or workflow output.
       For workflow output it may describe the particular workflow stage that failed.
       (ie Failed at call-stage due to a malformed fastq file).
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     rank: 1000
     alias: qc_comment
     owner: MetagenomeAssembly
@@ -1373,7 +1373,7 @@ attributes:
     range: string
   has_failure_categorization:
     name: has_failure_categorization
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     rank: 1000
     alias: has_failure_categorization
     owner: MetagenomeAssembly
@@ -1398,7 +1398,7 @@ attributes:
     examples:
     - value: nmdc:mgmag-00-x012.1_7_c1
       description: https://github.com/microbiomedata/nmdc-schema/pull/499#discussion_r1018499248
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     structured_aliases:
       workflow_execution_id:
         literal_form: workflow_execution_id
@@ -1425,7 +1425,7 @@ attributes:
   name:
     name: name
     description: A human readable label for an entity
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     rank: 1000
     alias: name
     owner: MetagenomeAssembly
@@ -1437,7 +1437,7 @@ attributes:
   description:
     name: description
     description: a human-readable description of a thing
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     rank: 1000
     slot_uri: dcterms:description
     alias: description
@@ -1449,7 +1449,7 @@ attributes:
   alternative_identifiers:
     name: alternative_identifiers
     description: A list of alternative identifiers for the entity.
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     rank: 1000
     alias: alternative_identifiers
     owner: MetagenomeAssembly
@@ -1468,7 +1468,7 @@ attributes:
     examples:
     - value: nmdc:Biosample
     - value: nmdc:Study
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     see_also:
     - https://github.com/microbiomedata/nmdc-schema/issues/1048
     - https://github.com/microbiomedata/nmdc-schema/issues/1233

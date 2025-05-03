@@ -365,7 +365,7 @@
 
 
 <h1 id="slot-was_informed_by">Slot: was_informed_by</h1>
-<p>URI: <a href="https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml/was_informed_by">emi:was_informed_by</a>
+<p>URI: <a href="https://www.earthmetabolome.org/emi-ontology-linkml/was_informed_by">emi:was_informed_by</a>
 Alias: was_informed_by</p>
 <!-- no inheritance hierarchy -->
 
@@ -380,8 +380,8 @@ Alias: was_informed_by</p>
 </thead>
 <tbody>
 <tr>
-<td><a href="../MetagenomeSequencing/">MetagenomeSequencing</a></td>
-<td>Initial sequencing activity that precedes any analysis</td>
+<td><a href="../ReadBasedTaxonomyAnalysis/">ReadBasedTaxonomyAnalysis</a></td>
+<td>A workflow execution activity that performs taxonomy classification using seq...</td>
 <td>yes</td>
 </tr>
 <tr>
@@ -390,27 +390,12 @@ Alias: was_informed_by</p>
 <td>yes</td>
 </tr>
 <tr>
-<td><a href="../ReadBasedTaxonomyAnalysis/">ReadBasedTaxonomyAnalysis</a></td>
-<td>A workflow execution activity that performs taxonomy classification using seq...</td>
-<td>yes</td>
-</tr>
-<tr>
-<td><a href="../MagsAnalysis/">MagsAnalysis</a></td>
-<td>A workflow execution activity that uses computational binning tools to group ...</td>
-<td>yes</td>
-</tr>
-<tr>
 <td><a href="../NomAnalysis/">NomAnalysis</a></td>
 <td></td>
 <td>yes</td>
 </tr>
 <tr>
-<td><a href="../MetatranscriptomeAnnotation/">MetatranscriptomeAnnotation</a></td>
-<td></td>
-<td>yes</td>
-</tr>
-<tr>
-<td><a href="../MetabolomicsAnalysis/">MetabolomicsAnalysis</a></td>
+<td><a href="../MetaproteomicsAnalysis/">MetaproteomicsAnalysis</a></td>
 <td></td>
 <td>yes</td>
 </tr>
@@ -420,22 +405,7 @@ Alias: was_informed_by</p>
 <td>yes</td>
 </tr>
 <tr>
-<td><a href="../MetatranscriptomeAssembly/">MetatranscriptomeAssembly</a></td>
-<td></td>
-<td>yes</td>
-</tr>
-<tr>
-<td><a href="../ReadQcAnalysis/">ReadQcAnalysis</a></td>
-<td>A workflow execution activity that performs quality control on raw Illumina r...</td>
-<td>yes</td>
-</tr>
-<tr>
-<td><a href="../WorkflowExecution/">WorkflowExecution</a></td>
-<td>Represents an instance of an execution of a particular workflow</td>
-<td>yes</td>
-</tr>
-<tr>
-<td><a href="../MetaproteomicsAnalysis/">MetaproteomicsAnalysis</a></td>
+<td><a href="../MetabolomicsAnalysis/">MetabolomicsAnalysis</a></td>
 <td></td>
 <td>yes</td>
 </tr>
@@ -445,9 +415,39 @@ Alias: was_informed_by</p>
 <td>yes</td>
 </tr>
 <tr>
+<td><a href="../MagsAnalysis/">MagsAnalysis</a></td>
+<td>A workflow execution activity that uses computational binning tools to group ...</td>
+<td>yes</td>
+</tr>
+<tr>
+<td><a href="../MetagenomeSequencing/">MetagenomeSequencing</a></td>
+<td>Initial sequencing activity that precedes any analysis</td>
+<td>yes</td>
+</tr>
+<tr>
+<td><a href="../MetatranscriptomeAssembly/">MetatranscriptomeAssembly</a></td>
+<td></td>
+<td>yes</td>
+</tr>
+<tr>
 <td><a href="../AnnotatingWorkflow/">AnnotatingWorkflow</a></td>
 <td>A WorkflowExecution whose output indicates the potential functions of genes o...</td>
 <td>no</td>
+</tr>
+<tr>
+<td><a href="../WorkflowExecution/">WorkflowExecution</a></td>
+<td>Represents an instance of an execution of a particular workflow</td>
+<td>yes</td>
+</tr>
+<tr>
+<td><a href="../ReadQcAnalysis/">ReadQcAnalysis</a></td>
+<td>A workflow execution activity that performs quality control on raw Illumina r...</td>
+<td>yes</td>
+</tr>
+<tr>
+<td><a href="../MetatranscriptomeAnnotation/">MetatranscriptomeAnnotation</a></td>
+<td></td>
+<td>yes</td>
 </tr>
 </tbody>
 </table>
@@ -458,7 +458,7 @@ Alias: was_informed_by</p>
 <h2 id="identifier-and-mapping-information">Identifier and Mapping Information</h2>
 <h3 id="schema-source">Schema Source</h3>
 <ul>
-<li>from schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml</li>
+<li>from schema: https://www.earthmetabolome.org/emi-ontology-linkml/</li>
 </ul>
 <h2 id="mappings">Mappings</h2>
 <table>
@@ -487,7 +487,7 @@ Alias: was_informed_by</p>
 <details>
 
 <pre><code class="language-yaml">name: was_informed_by
-from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
 structured_aliases:
   was_informed_by:
     literal_form: was_informed_by

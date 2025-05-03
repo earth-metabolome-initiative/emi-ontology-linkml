@@ -641,7 +641,7 @@
 <h2 id="identifier-and-mapping-information">Identifier and Mapping Information</h2>
 <h3 id="schema-source">Schema Source</h3>
 <ul>
-<li>from schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml</li>
+<li>from schema: https://www.earthmetabolome.org/emi-ontology-linkml/</li>
 </ul>
 <h2 id="mappings">Mappings</h2>
 <table>
@@ -670,7 +670,7 @@
 description: A DataGeneration in which the sequence of DNA or RNA molecules is generated.
 comments:
 - For example data generated from an Illumina or Pacific Biosciences instrument.
-from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
 is_a: DataGeneration
 slots:
 - gold_sequencing_project_identifiers
@@ -698,7 +698,7 @@ class_uri: nmdc:NucleotideSequencing
 description: A DataGeneration in which the sequence of DNA or RNA molecules is generated.
 comments:
 - For example data generated from an Illumina or Pacific Biosciences instrument.
-from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
 is_a: DataGeneration
 slot_usage:
   id:
@@ -715,7 +715,7 @@ attributes:
     description: identifiers for corresponding sequencing project in GOLD
     examples:
     - value: gold:Gp0108335
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     rank: 1000
     is_a: omics_processing_identifiers
     mixins:
@@ -737,7 +737,7 @@ attributes:
     - value: bioproject:PRJNA366857
       description: Avena fatua rhizosphere microbial communities - H1_Rhizo_Litter_2
         metatranscriptome
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     see_also:
     - https://www.ncbi.nlm.nih.gov/bioproject/
     - https://www.ddbj.nig.ac.jp/bioproject/index-e.html
@@ -758,7 +758,7 @@ attributes:
     pattern: ^bioproject:PRJ[DEN][A-Z][0-9]+$
   insdc_experiment_identifiers:
     name: insdc_experiment_identifiers
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     rank: 1000
     is_a: external_database_identifiers
     mixins:
@@ -773,7 +773,7 @@ attributes:
     pattern: ^insdc.sra:(E|D|S)RX[0-9]{6,}$
   ncbi_project_name:
     name: ncbi_project_name
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     rank: 1000
     alias: ncbi_project_name
     owner: NucleotideSequencing
@@ -790,7 +790,7 @@ attributes:
     title: target gene
     examples:
     - value: 16S rRNA, 18S rRNA, nif, amoA, rpo
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     aliases:
     - target gene
     rank: 1000
@@ -814,7 +814,7 @@ attributes:
     title: target subfragment
     examples:
     - value: V6, V9, ITS
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     aliases:
     - target subfragment
     rank: 1000
@@ -830,7 +830,7 @@ attributes:
   add_date:
     name: add_date
     description: The date on which the information was added to the database.
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     rank: 1000
     alias: add_date
     owner: NucleotideSequencing
@@ -842,7 +842,7 @@ attributes:
     name: analyte_category
     description: "The type of analyte(s) that were measured in the data generation\
       \ process and analyzed\n  in the Workflow Chain\n"
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     rank: 1000
     alias: analyte_category
     owner: NucleotideSequencing
@@ -853,7 +853,7 @@ attributes:
   associated_studies:
     name: associated_studies
     description: The study associated with a resource.
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     rank: 1000
     alias: associated_studies
     owner: NucleotideSequencing
@@ -869,7 +869,7 @@ attributes:
   instrument_used:
     name: instrument_used
     description: What instrument was used during DataGeneration or MaterialProcessing.
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     rank: 1000
     alias: instrument_used
     owner: NucleotideSequencing
@@ -884,7 +884,7 @@ attributes:
   mod_date:
     name: mod_date
     description: The last date on which the database information was modified.
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     rank: 1000
     alias: mod_date
     owner: NucleotideSequencing
@@ -895,7 +895,7 @@ attributes:
   principal_investigator:
     name: principal_investigator
     description: Principal Investigator who led the study and/or generated the dataset.
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     aliases:
     - PI
     rank: 1000
@@ -908,7 +908,7 @@ attributes:
   has_input:
     name: has_input
     description: An input to a process.
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     aliases:
     - input
     rank: 1000
@@ -925,7 +925,7 @@ attributes:
   has_output:
     name: has_output
     description: An output from a process.
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     aliases:
     - output
     rank: 1000
@@ -941,7 +941,7 @@ attributes:
   processing_institution:
     name: processing_institution
     description: The organization that processed the sample.
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     rank: 1000
     alias: processing_institution
     owner: NucleotideSequencing
@@ -950,7 +950,7 @@ attributes:
     range: ProcessingInstitutionEnum
   protocol_link:
     name: protocol_link
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     rank: 1000
     alias: protocol_link
     owner: NucleotideSequencing
@@ -967,7 +967,7 @@ attributes:
     - We are using string representations of dates until all components of our ecosystem
       can handle ISO 8610 dates
     - The date should be formatted as YYYY-MM-DD
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     rank: 1000
     alias: start_date
     owner: NucleotideSequencing
@@ -983,7 +983,7 @@ attributes:
     - We are using string representations of dates until all components of our ecosystem
       can handle ISO 8610 dates
     - The date should be formatted as YYYY-MM-DD
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     rank: 1000
     alias: end_date
     owner: NucleotideSequencing
@@ -995,7 +995,7 @@ attributes:
     description: Stores information about the result of a process (ie the process
       of sequencing a library may have for qc_status of 'fail' if not enough data
       was generated)
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     rank: 1000
     alias: qc_status
     owner: NucleotideSequencing
@@ -1007,7 +1007,7 @@ attributes:
     description: Slot to store additional comments about laboratory or workflow output.
       For workflow output it may describe the particular workflow stage that failed.
       (ie Failed at call-stage due to a malformed fastq file).
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     rank: 1000
     alias: qc_comment
     owner: NucleotideSequencing
@@ -1016,7 +1016,7 @@ attributes:
     range: string
   has_failure_categorization:
     name: has_failure_categorization
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     rank: 1000
     alias: has_failure_categorization
     owner: NucleotideSequencing
@@ -1041,7 +1041,7 @@ attributes:
     examples:
     - value: nmdc:mgmag-00-x012.1_7_c1
       description: https://github.com/microbiomedata/nmdc-schema/pull/499#discussion_r1018499248
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     structured_aliases:
       workflow_execution_id:
         literal_form: workflow_execution_id
@@ -1068,7 +1068,7 @@ attributes:
   name:
     name: name
     description: A human readable label for an entity
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     rank: 1000
     alias: name
     owner: NucleotideSequencing
@@ -1080,7 +1080,7 @@ attributes:
   description:
     name: description
     description: a human-readable description of a thing
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     rank: 1000
     slot_uri: dcterms:description
     alias: description
@@ -1092,7 +1092,7 @@ attributes:
   alternative_identifiers:
     name: alternative_identifiers
     description: A list of alternative identifiers for the entity.
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     rank: 1000
     alias: alternative_identifiers
     owner: NucleotideSequencing
@@ -1111,7 +1111,7 @@ attributes:
     examples:
     - value: nmdc:Biosample
     - value: nmdc:Study
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     see_also:
     - https://github.com/microbiomedata/nmdc-schema/issues/1048
     - https://github.com/microbiomedata/nmdc-schema/issues/1233

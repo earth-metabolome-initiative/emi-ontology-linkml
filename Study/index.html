@@ -671,7 +671,7 @@
 <h2 id="identifier-and-mapping-information">Identifier and Mapping Information</h2>
 <h3 id="schema-source">Schema Source</h3>
 <ul>
-<li>from schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml</li>
+<li>from schema: https://www.earthmetabolome.org/emi-ontology-linkml/</li>
 </ul>
 <h2 id="mappings">Mappings</h2>
 <table>
@@ -723,7 +723,7 @@ notes:
   but no longer for the Study.id
 comments:
 - The Study includes both consortia and research studies.
-from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
 aliases:
 - proposal
 - research proposal
@@ -874,7 +874,7 @@ notes:
   but no longer for the Study.id
 comments:
 - The Study includes both consortia and research studies.
-from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
 aliases:
 - proposal
 - research proposal
@@ -983,7 +983,7 @@ attributes:
       future
     examples:
     - value: emsl.project:60141
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     see_also:
     - https://github.com/microbiomedata/nmdc-schema/issues/927#issuecomment-1802136437
     rank: 1000
@@ -1008,7 +1008,7 @@ attributes:
     - this identifier was registered with bioregistry but not identifiers.org
     examples:
     - value: gnps.task:4b848c342a4f4abc871bdf8a09a60807
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     see_also:
     - https://microbiomedata.github.io/nmdc-schema/MetabolomicsAnalysis/
     rank: 1000
@@ -1030,7 +1030,7 @@ attributes:
     - uses the prefix GS (but possibly in a different case)
     examples:
     - value: gold:Gs0110115
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     see_also:
     - https://gold.jgi.doe.gov/studies
     rank: 1000
@@ -1060,7 +1060,7 @@ attributes:
     - value: bioproject:PRJNA366857
       description: Avena fatua rhizosphere microbial communities - H1_Rhizo_Litter_2
         metatranscriptome
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     see_also:
     - https://www.ncbi.nlm.nih.gov/bioproject/
     - https://www.ddbj.nig.ac.jp/bioproject/index-e.html
@@ -1095,7 +1095,7 @@ attributes:
     - bioregistry.io/jgi.proposal:507130 ==https://genome.jgi.doe.gov/portal/BioDefcarcycling/BioDefcarcycling.info.html
     examples:
     - value: jgi.proposal:507130
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     rank: 1000
     is_a: study_identifiers
     mixins:
@@ -1112,7 +1112,7 @@ attributes:
     description: identifiers for corresponding project in MGnify
     examples:
     - value: mgnify.proj:MGYS00005757
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     rank: 1000
     is_a: study_identifiers
     mixins:
@@ -1126,7 +1126,7 @@ attributes:
     pattern: ^mgnify.proj:[A-Z]+[0-9]+$
   neon_study_identifiers:
     name: neon_study_identifiers
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     rank: 1000
     is_a: study_identifiers
     mixins:
@@ -1143,7 +1143,7 @@ attributes:
     description: Unique identifier for a study submitted to additional resources.
       Similar, but not necessarily identical to that which has been submitted to NMDC
     title: Related Identifiers
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     rank: 1000
     alias: related_identifiers
     owner: Study
@@ -1154,7 +1154,7 @@ attributes:
     name: alternative_descriptions
     description: A list of alternative descriptions for the entity. The distinction
       between description and alternative descriptions is application-specific.
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     rank: 1000
     alias: alternative_descriptions
     owner: Study
@@ -1171,7 +1171,7 @@ attributes:
           submission or other names / identifiers for this study.
     description: A list of alternative names used to refer to the entity. The distinction
       between name and alternative names is application-specific.
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     exact_mappings:
     - dcterms:alternative
     - skos:altLabel
@@ -1187,7 +1187,7 @@ attributes:
     name: alternative_titles
     description: A list of alternative titles for the entity. The distinction between
       title and alternative titles is application-specific.
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     exact_mappings:
     - dcterms:alternative
     rank: 1000
@@ -1210,7 +1210,7 @@ attributes:
       are Environmental, Host-associated, and Engineered. They represent samples collected
       from a natural environment or from another organism or from engineered environments
       like bioreactors respectively.
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     see_also:
     - https://gold.jgi.doe.gov/help
     rank: 1000
@@ -1231,7 +1231,7 @@ attributes:
       Ecosystem categories for Host-associated samples can be individual hosts or
       phyla and for engineered samples it may be manipulated environments like bioreactors,
       solid waste etc.
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     see_also:
     - https://gold.jgi.doe.gov/help
     rank: 1000
@@ -1251,7 +1251,7 @@ attributes:
     - Ecosystem Type Marine (Environmental -&gt; Aquatic -&gt; Marine) is further divided
       (for example) into Intertidal zone, Coastal, Pelagic, Intertidal zone etc. in
       the Ecosystem subtype category.
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     see_also:
     - https://gold.jgi.doe.gov/help
     rank: 1000
@@ -1273,7 +1273,7 @@ attributes:
       or Thermal springs etc. Ecosystem category Air may have Indoor air or Outdoor
       air as different Ecosystem Types. In the case of Host-associated samples, ecosystem
       type can represent Respiratory system, Digestive system, Roots etc.
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     see_also:
     - https://gold.jgi.doe.gov/help
     rank: 1000
@@ -1292,7 +1292,7 @@ attributes:
     comments:
     - Specific ecosystems help to define samples based on very specific characteristics
       of an environment under the five-level classification system.
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     see_also:
     - https://gold.jgi.doe.gov/help
     rank: 1000
@@ -1314,7 +1314,7 @@ attributes:
         ''doi_category'': ''data_management_plan_doi'', ''doi_provider'': ''gsc''}]'
       description: Provides a list of two DOIs; specifically, an EMSL award DOI and
         a publication DOI.
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     aliases:
     - Associated DOIs
     - Associated digital object identifiers
@@ -1339,7 +1339,7 @@ attributes:
     - value: National Sciences Foundation Dimensions of Biodiversity (award no. 1342701)
     - value: U.S. Department of Energy, Office of Science, Office of Biological and
         Environmental Research (BER) under contract DE-AC05-00OR2275
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     close_mappings:
     - NCIT:C39409
     rank: 1000
@@ -1358,7 +1358,7 @@ attributes:
     description: 'This slot links a study to a credit association.  The credit association
       will be linked to a person value and to a CRediT Contributor Roles term. Overall
       semantics: person should get credit X for their participation in the study'
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     rank: 1000
     slot_uri: prov:qualifiedAssociation
     alias: has_credit_associations
@@ -1378,7 +1378,7 @@ attributes:
     description: The website address (URL) of an entity's homepage.
     examples:
     - value: https://www.neonscience.org/
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     rank: 1000
     is_a: websites
     alias: homepage_website
@@ -1395,7 +1395,7 @@ attributes:
       tooltip:
         tag: tooltip
         value: Add any additional notes or comments about this study.
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     rank: 1000
     alias: notes
     owner: Study
@@ -1406,7 +1406,7 @@ attributes:
     name: objective
     description: The scientific objectives associated with the entity. It SHOULD correspond
       to scientific norms for objectives field in a structured abstract.
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     mappings:
     - SIO:000337
     rank: 1000
@@ -1420,7 +1420,7 @@ attributes:
     description: Links a study or consortium to a parent (or umbrella) study or consortium.
     comments:
     - Value is the id of the umbrella study or consortium.
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     aliases:
     - is part of
     rank: 1000
@@ -1438,7 +1438,7 @@ attributes:
   principal_investigator:
     name: principal_investigator
     description: Principal Investigator who led the study and/or generated the dataset.
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     aliases:
     - PI
     rank: 1000
@@ -1450,7 +1450,7 @@ attributes:
     range: PersonValue
   protocol_link:
     name: protocol_link
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     rank: 1000
     alias: protocol_link
     owner: Study
@@ -1463,7 +1463,7 @@ attributes:
   study_category:
     name: study_category
     description: The type of research initiative
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     rank: 1000
     alias: study_category
     owner: Study
@@ -1474,7 +1474,7 @@ attributes:
   study_image:
     name: study_image
     description: Links a study to one or more images.
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     rank: 1000
     alias: study_image
     owner: Study
@@ -1490,7 +1490,7 @@ attributes:
       assigned to it. For example, when extracting study information for GOLD, the
       GOLD system has assigned a name/label. However, for display purposes, we may
       also wish the capture the title of the proposal that was used to fund the study.
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     exact_mappings:
     - dcterms:title
     rank: 1000
@@ -1515,7 +1515,7 @@ attributes:
     - consortium is a convenience term for a Study whose study_category value is consortium
     - the website slot and its subproperties are virtually identical to the url slot,
       except that they are multivalued and url is single-valued.
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     see_also:
     - nmdc:url
     rank: 1000
@@ -1542,7 +1542,7 @@ attributes:
     examples:
     - value: nmdc:mgmag-00-x012.1_7_c1
       description: https://github.com/microbiomedata/nmdc-schema/pull/499#discussion_r1018499248
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     structured_aliases:
       workflow_execution_id:
         literal_form: workflow_execution_id
@@ -1573,7 +1573,7 @@ attributes:
         tag: tooltip
         value: Provide a name for the study your samples will belong with.
     description: A human readable label for an entity
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     rank: 1000
     alias: name
     owner: Study
@@ -1591,7 +1591,7 @@ attributes:
     description: A brief, link-free summary of a Study
     comments:
     - Include links in other Study slots, such as websites or dois.
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     rank: 1000
     slot_uri: dcterms:description
     alias: description
@@ -1604,7 +1604,7 @@ attributes:
     name: alternative_identifiers
     description: Unique identifier for a study submitted to additional resources.
       Matches that which has been submitted to NMDC
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     rank: 1000
     alias: alternative_identifiers
     owner: Study
@@ -1623,7 +1623,7 @@ attributes:
     examples:
     - value: nmdc:Biosample
     - value: nmdc:Study
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     see_also:
     - https://github.com/microbiomedata/nmdc-schema/issues/1048
     - https://github.com/microbiomedata/nmdc-schema/issues/1233

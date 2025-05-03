@@ -448,7 +448,7 @@
 <h2 id="identifier-and-mapping-information">Identifier and Mapping Information</h2>
 <h3 id="schema-source">Schema Source</h3>
 <ul>
-<li>from schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml</li>
+<li>from schema: https://www.earthmetabolome.org/emi-ontology-linkml/</li>
 </ul>
 <h2 id="mappings">Mappings</h2>
 <table>
@@ -481,7 +481,7 @@
 title: Collecting Biosamples From Site
 comments:
 - this illustrates implementing a Biosample relation with a process class
-from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
 close_mappings:
 - OBI:0000744
 is_a: PlannedProcess
@@ -516,7 +516,7 @@ class_uri: nmdc:CollectingBiosamplesFromSite
 title: Collecting Biosamples From Site
 comments:
 - this illustrates implementing a Biosample relation with a process class
-from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
 close_mappings:
 - OBI:0000744
 is_a: PlannedProcess
@@ -545,7 +545,7 @@ attributes:
   has_input:
     name: has_input
     description: An input to a process.
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     aliases:
     - input
     rank: 1000
@@ -562,7 +562,7 @@ attributes:
   has_output:
     name: has_output
     description: An output from a process.
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     aliases:
     - output
     rank: 1000
@@ -579,7 +579,7 @@ attributes:
   processing_institution:
     name: processing_institution
     description: The organization that processed the sample.
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     rank: 1000
     alias: processing_institution
     owner: CollectingBiosamplesFromSite
@@ -588,7 +588,7 @@ attributes:
     range: ProcessingInstitutionEnum
   protocol_link:
     name: protocol_link
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     rank: 1000
     alias: protocol_link
     owner: CollectingBiosamplesFromSite
@@ -605,7 +605,7 @@ attributes:
     - We are using string representations of dates until all components of our ecosystem
       can handle ISO 8610 dates
     - The date should be formatted as YYYY-MM-DD
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     rank: 1000
     alias: start_date
     owner: CollectingBiosamplesFromSite
@@ -621,7 +621,7 @@ attributes:
     - We are using string representations of dates until all components of our ecosystem
       can handle ISO 8610 dates
     - The date should be formatted as YYYY-MM-DD
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     rank: 1000
     alias: end_date
     owner: CollectingBiosamplesFromSite
@@ -633,7 +633,7 @@ attributes:
     description: Stores information about the result of a process (ie the process
       of sequencing a library may have for qc_status of 'fail' if not enough data
       was generated)
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     rank: 1000
     alias: qc_status
     owner: CollectingBiosamplesFromSite
@@ -645,7 +645,7 @@ attributes:
     description: Slot to store additional comments about laboratory or workflow output.
       For workflow output it may describe the particular workflow stage that failed.
       (ie Failed at call-stage due to a malformed fastq file).
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     rank: 1000
     alias: qc_comment
     owner: CollectingBiosamplesFromSite
@@ -654,7 +654,7 @@ attributes:
     range: string
   has_failure_categorization:
     name: has_failure_categorization
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     rank: 1000
     alias: has_failure_categorization
     owner: CollectingBiosamplesFromSite
@@ -679,7 +679,7 @@ attributes:
     examples:
     - value: nmdc:mgmag-00-x012.1_7_c1
       description: https://github.com/microbiomedata/nmdc-schema/pull/499#discussion_r1018499248
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     structured_aliases:
       workflow_execution_id:
         literal_form: workflow_execution_id
@@ -706,7 +706,7 @@ attributes:
   name:
     name: name
     description: A human readable label for an entity
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     rank: 1000
     alias: name
     owner: CollectingBiosamplesFromSite
@@ -718,7 +718,7 @@ attributes:
   description:
     name: description
     description: a human-readable description of a thing
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     rank: 1000
     slot_uri: dcterms:description
     alias: description
@@ -730,7 +730,7 @@ attributes:
   alternative_identifiers:
     name: alternative_identifiers
     description: A list of alternative identifiers for the entity.
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     rank: 1000
     alias: alternative_identifiers
     owner: CollectingBiosamplesFromSite
@@ -749,7 +749,7 @@ attributes:
     examples:
     - value: nmdc:Biosample
     - value: nmdc:Study
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     see_also:
     - https://github.com/microbiomedata/nmdc-schema/issues/1048
     - https://github.com/microbiomedata/nmdc-schema/issues/1233

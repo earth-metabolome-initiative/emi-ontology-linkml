@@ -550,7 +550,7 @@
 <h2 id="identifier-and-mapping-information">Identifier and Mapping Information</h2>
 <h3 id="schema-source">Schema Source</h3>
 <ul>
-<li>from schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml</li>
+<li>from schema: https://www.earthmetabolome.org/emi-ontology-linkml/</li>
 </ul>
 <h2 id="mappings">Mappings</h2>
 <table>
@@ -582,7 +582,7 @@
 <pre><code class="language-yaml">name: LibraryPreparation
 comments:
 - OBI:0000711 specifies a DNA input (but not ONLY a DNA input)
-from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
 aliases:
 - LibraryConstruction
 close_mappings:
@@ -629,7 +629,7 @@ class_uri: nmdc:LibraryPreparation
 <pre><code class="language-yaml">name: LibraryPreparation
 comments:
 - OBI:0000711 specifies a DNA input (but not ONLY a DNA input)
-from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
 aliases:
 - LibraryConstruction
 close_mappings:
@@ -664,7 +664,7 @@ attributes:
     description: Is the (RNA) library stranded or non-stranded (unstranded).
     comments:
     - A value of true means the library is stranded, flase means non-stranded.
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     rank: 1000
     alias: is_stranded
     owner: LibraryPreparation
@@ -673,7 +673,7 @@ attributes:
     range: boolean
   library_preparation_kit:
     name: library_preparation_kit
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     exact_mappings:
     - GENEPIO:0001450
     rank: 1000
@@ -687,7 +687,7 @@ attributes:
     title: library type
     examples:
     - value: DNA
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     rank: 1000
     alias: library_type
     owner: LibraryPreparation
@@ -706,7 +706,7 @@ attributes:
     title: nucleic acid amplification
     examples:
     - value: https://phylogenomics.me/protocols/16s-pcr-protocol/
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     aliases:
     - nucleic acid amplification
     rank: 1000
@@ -731,7 +731,7 @@ attributes:
     title: pcr conditions
     examples:
     - value: initial denaturation:94_3;annealing:50_1;elongation:72_1.5;final elongation:72_10;35
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     aliases:
     - pcr conditions
     rank: 1000
@@ -747,7 +747,7 @@ attributes:
     multivalued: false
   pcr_cycles:
     name: pcr_cycles
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     exact_mappings:
     - OBI:0002475
     rank: 1000
@@ -769,7 +769,7 @@ attributes:
     title: pcr primers
     examples:
     - value: FWD:GTGCCAGCMGCCGCGGTAA;REV:GGACTACHVGGGTWTCTAAT
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     aliases:
     - pcr primers
     rank: 1000
@@ -785,7 +785,7 @@ attributes:
   stranded_orientation:
     name: stranded_orientation
     description: Lists the strand orientiation for a stranded RNA library preparation.
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     rank: 1000
     alias: stranded_orientation
     owner: LibraryPreparation
@@ -795,7 +795,7 @@ attributes:
   instrument_used:
     name: instrument_used
     description: What instrument was used during DataGeneration or MaterialProcessing.
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     rank: 1000
     alias: instrument_used
     owner: LibraryPreparation
@@ -810,7 +810,7 @@ attributes:
   has_input:
     name: has_input
     description: An input to a process.
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     aliases:
     - input
     rank: 1000
@@ -827,7 +827,7 @@ attributes:
   has_output:
     name: has_output
     description: An output from a process.
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     aliases:
     - output
     rank: 1000
@@ -844,7 +844,7 @@ attributes:
   processing_institution:
     name: processing_institution
     description: The organization that processed the sample.
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     rank: 1000
     alias: processing_institution
     owner: LibraryPreparation
@@ -853,7 +853,7 @@ attributes:
     range: ProcessingInstitutionEnum
   protocol_link:
     name: protocol_link
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     rank: 1000
     alias: protocol_link
     owner: LibraryPreparation
@@ -870,7 +870,7 @@ attributes:
     - We are using string representations of dates until all components of our ecosystem
       can handle ISO 8610 dates
     - The date should be formatted as YYYY-MM-DD
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     rank: 1000
     alias: start_date
     owner: LibraryPreparation
@@ -886,7 +886,7 @@ attributes:
     - We are using string representations of dates until all components of our ecosystem
       can handle ISO 8610 dates
     - The date should be formatted as YYYY-MM-DD
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     rank: 1000
     alias: end_date
     owner: LibraryPreparation
@@ -898,7 +898,7 @@ attributes:
     description: Stores information about the result of a process (ie the process
       of sequencing a library may have for qc_status of 'fail' if not enough data
       was generated)
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     rank: 1000
     alias: qc_status
     owner: LibraryPreparation
@@ -910,7 +910,7 @@ attributes:
     description: Slot to store additional comments about laboratory or workflow output.
       For workflow output it may describe the particular workflow stage that failed.
       (ie Failed at call-stage due to a malformed fastq file).
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     rank: 1000
     alias: qc_comment
     owner: LibraryPreparation
@@ -919,7 +919,7 @@ attributes:
     range: string
   has_failure_categorization:
     name: has_failure_categorization
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     rank: 1000
     alias: has_failure_categorization
     owner: LibraryPreparation
@@ -944,7 +944,7 @@ attributes:
     examples:
     - value: nmdc:mgmag-00-x012.1_7_c1
       description: https://github.com/microbiomedata/nmdc-schema/pull/499#discussion_r1018499248
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     structured_aliases:
       workflow_execution_id:
         literal_form: workflow_execution_id
@@ -971,7 +971,7 @@ attributes:
   name:
     name: name
     description: A human readable label for an entity
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     rank: 1000
     alias: name
     owner: LibraryPreparation
@@ -983,7 +983,7 @@ attributes:
   description:
     name: description
     description: a human-readable description of a thing
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     rank: 1000
     slot_uri: dcterms:description
     alias: description
@@ -995,7 +995,7 @@ attributes:
   alternative_identifiers:
     name: alternative_identifiers
     description: A list of alternative identifiers for the entity.
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     rank: 1000
     alias: alternative_identifiers
     owner: LibraryPreparation
@@ -1014,7 +1014,7 @@ attributes:
     examples:
     - value: nmdc:Biosample
     - value: nmdc:Study
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     see_also:
     - https://github.com/microbiomedata/nmdc-schema/issues/1048
     - https://github.com/microbiomedata/nmdc-schema/issues/1233

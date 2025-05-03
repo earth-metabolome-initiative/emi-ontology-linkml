@@ -373,7 +373,7 @@
 <h2 id="identifier-and-mapping-information">Identifier and Mapping Information</h2>
 <h3 id="schema-source">Schema Source</h3>
 <ul>
-<li>from schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml</li>
+<li>from schema: https://www.earthmetabolome.org/emi-ontology-linkml/</li>
 </ul>
 <h2 id="mappings">Mappings</h2>
 <table>
@@ -402,7 +402,7 @@
 description: A feature localized to an interval along a genome
 comments:
 - corresponds to an entry in GFF3
-from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
 see_also:
 - https://github.com/The-Sequence-Ontology/Specifications/blob/master/gff3.md
 slots:
@@ -435,7 +435,7 @@ class_uri: nmdc:GenomeFeature
 description: A feature localized to an interval along a genome
 comments:
 - corresponds to an entry in GFF3
-from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
 see_also:
 - https://github.com/The-Sequence-Ontology/Specifications/blob/master/gff3.md
 slot_usage:
@@ -457,7 +457,7 @@ attributes:
     todos:
     - If we revert Reaction back into the schema, that would be a reasonable domain
       for this slot
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     rank: 1000
     alias: encodes
     owner: GenomeFeature
@@ -471,7 +471,7 @@ attributes:
     - '- "unenforced constraint: end &gt; start" - "For features that cross the origin
       of a circular feature,  end = the position of the end + the length of the landmark
       feature."'
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     close_mappings:
     - biolink:end_interbase_coordinate
     rank: 1000
@@ -486,7 +486,7 @@ attributes:
   feature_type:
     name: feature_type
     description: 'TODO: Yuri to write'
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     rank: 1000
     alias: feature_type
     owner: GenomeFeature
@@ -497,7 +497,7 @@ attributes:
     name: phase
     description: The phase for a coding sequence entity. For example, phase of a CDS
       as represented in a GFF3 with a value of 0, 1 or 2.
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     exact_mappings:
     - biolink:phase
     rank: 1000
@@ -514,7 +514,7 @@ attributes:
       the current feature.
     todos:
     - change range from string to a object like uriorcurie?
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     rank: 1000
     alias: seqid
     owner: GenomeFeature
@@ -525,7 +525,7 @@ attributes:
   start:
     name: start
     description: The start of the feature in positive 1-based integer coordinates
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     close_mappings:
     - biolink:start_interbase_coordinate
     rank: 1000
@@ -543,7 +543,7 @@ attributes:
       strand or forward strand) or  '-' (anti-sense strand or reverse strand).
     todos:
     - set the range to an enum?
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     exact_mappings:
     - biolink:strand
     rank: 1000
@@ -561,7 +561,7 @@ attributes:
     examples:
     - value: nmdc:Biosample
     - value: nmdc:Study
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     see_also:
     - https://github.com/microbiomedata/nmdc-schema/issues/1048
     - https://github.com/microbiomedata/nmdc-schema/issues/1233
@@ -598,7 +598,7 @@ attributes:
   feature_category:
     name: feature_category
     description: A Sequence Ontology term that describes the category of a feature
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     rank: 1000
     alias: feature_category
     owner: GenomeFeature

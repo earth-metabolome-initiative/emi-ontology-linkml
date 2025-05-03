@@ -391,7 +391,7 @@
 </ul>
 <h3 id="schema-source">Schema Source</h3>
 <ul>
-<li>from schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml</li>
+<li>from schema: https://www.earthmetabolome.org/emi-ontology-linkml/</li>
 </ul>
 <h2 id="mappings">Mappings</h2>
 <table>
@@ -435,7 +435,7 @@ todos:
   in the Data Portal?
 notes:
 - KEGG.ORTHOLOGY prefix is used for KO numbers
-from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
 exact_mappings:
 - biolink:GeneFamily
 is_a: FunctionalAnnotationTerm
@@ -460,7 +460,7 @@ todos:
   in the Data Portal?
 notes:
 - KEGG.ORTHOLOGY prefix is used for KO numbers
-from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
 exact_mappings:
 - biolink:GeneFamily
 is_a: FunctionalAnnotationTerm
@@ -469,7 +469,7 @@ attributes:
     name: alternative_names
     description: A list of alternative names used to refer to the entity. The distinction
       between name and alternative names is application-specific.
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     exact_mappings:
     - dcterms:alternative
     - skos:altLabel
@@ -483,7 +483,7 @@ attributes:
     multivalued: true
   relations:
     name: relations
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     rank: 1000
     alias: relations
     owner: OrthologyGroup
@@ -496,7 +496,7 @@ attributes:
   definition:
     name: definition
     description: The definition of the ontology term as provided by the ontology.
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     rank: 1000
     alias: definition
     owner: OrthologyGroup
@@ -510,7 +510,7 @@ attributes:
     - If true (the ontology term is declared obsolete via the ontology source itself),  the
       term is no longer considered a valid term to use in an annotation at NMDC, and
       it no longer has ontology_relation_set records.
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     rank: 1000
     alias: is_obsolete
     owner: OrthologyGroup
@@ -521,7 +521,7 @@ attributes:
     name: is_root
     description: A boolean value indicating whether the ontology term is a root term;
       it is not a subclass of  any other term.
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     rank: 1000
     alias: is_root
     owner: OrthologyGroup
@@ -538,7 +538,7 @@ attributes:
     examples:
     - value: nmdc:mgmag-00-x012.1_7_c1
       description: https://github.com/microbiomedata/nmdc-schema/pull/499#discussion_r1018499248
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     structured_aliases:
       workflow_execution_id:
         literal_form: workflow_execution_id
@@ -562,7 +562,7 @@ attributes:
   name:
     name: name
     description: A human readable label for an entity
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     rank: 1000
     alias: name
     owner: OrthologyGroup
@@ -574,7 +574,7 @@ attributes:
   description:
     name: description
     description: a human-readable description of a thing
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     rank: 1000
     slot_uri: dcterms:description
     alias: description
@@ -586,7 +586,7 @@ attributes:
   alternative_identifiers:
     name: alternative_identifiers
     description: A list of alternative identifiers for the entity.
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     rank: 1000
     alias: alternative_identifiers
     owner: OrthologyGroup
@@ -605,7 +605,7 @@ attributes:
     examples:
     - value: nmdc:Biosample
     - value: nmdc:Study
-    from_schema: https://w3id.org/earth-metabolome-initiative/emi-ontology-linkml
+    from_schema: https://www.earthmetabolome.org/emi-ontology-linkml/
     see_also:
     - https://github.com/microbiomedata/nmdc-schema/issues/1048
     - https://github.com/microbiomedata/nmdc-schema/issues/1233
