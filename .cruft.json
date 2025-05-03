@@ -4,10 +4,10 @@
   "checkout": null,
   "context": {
     "cookiecutter": {
-      "project_name": "emi-ontology-linkml",
-      "__project_slug": "emi_ontology_linkml",
+      "project_name": "emi_ontology_linkml",
+      "__project_slug": "emi",
       "github_org": "earth-metabolome-initiative",
-      "__source_path": "src/emi_ontology_linkml/schema/emi_ontology_linkml.yaml",
+      "__source_path": "src/emi_ontology_linkml/schema/emi.yaml",
       "project_description": "Testing LinkML to manage the EMI Ontology",
       "full_name": "EMI",
       "email": "contact@earthmetabolome.org",
