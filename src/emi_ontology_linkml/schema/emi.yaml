@@ -21,6 +21,8 @@ prefixes:
   PUBCHEM.COMPOUND: "https://bioregistry.io/pubchem.compound:"
   wd: "http://www.wikidata.org/entity/"
   skos: "http://www.w3.org/2004/02/skos/core#"
+
+
 default_prefix: emi
 default_range: string
 
